@@ -31,7 +31,7 @@
 #import <CommonCrypto/CommonHMAC.h>
 
 #define BIP32_HARD     0x80000000u //not sure about this one
-#define BIP32_SEED_KEY "Darkcoin seed"
+#define BIP32_SEED_KEY "Bitcoin seed"
 #define BIP32_XPRV     "\x02\xFE\x52\xCC" //// Dash BIP32 prvkeys start with 'drkp'
 #define BIP32_XPUB     "\x02\xFE\x52\xF8" //// Dash BIP32 pubkeys start with 'drkv'
 

@@ -996,7 +996,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BR;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Aaron Voisine";
 				TargetAttributes = {
 					75001D3D1A1EE89500585F55 = {
@@ -1464,6 +1464,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "BreadWalletTests/DashWalletTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.voisine.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = DashWalletTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1489,6 +1490,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1622,6 +1624,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "BreadWalletTests/DashWalletTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.voisine.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = DashWalletTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1642,6 +1645,7 @@
 				GCC_WARN_PEDANTIC = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INFOPLIST_FILE = "BreadWalletTests/DashWalletTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.voisine.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = DashWalletTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
