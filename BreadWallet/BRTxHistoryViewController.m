@@ -574,7 +574,7 @@ static NSString *dateFormat(NSString *template)
     l.text = [self tableView:tableView titleForHeaderInSection:section];
     l.backgroundColor = [UIColor clearColor];
     l.font = [UIFont fontWithName:@"HelveticaNeue" size:13];
-    l.textColor = [UIColor whiteColor];
+    l.textColor = [UIColor blackColor];
     l.numberOfLines = 0;
     v.backgroundColor = [UIColor clearColor];
     [v addSubview:l];
