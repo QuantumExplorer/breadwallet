@@ -60,7 +60,6 @@
         self.seedPhrase = [manager generateRandomSeed];
         [[BRPeerManager sharedInstance] connect];
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:WALLET_NEEDS_BACKUP_KEY];
-        [[NSUserDefaults standardUserDefaults] synchronize];
     }
     
     return self;
@@ -271,8 +270,6 @@
         [self.writeButton setImage:[UIImage imageNamed:@"checkbox-empty"] forState:UIControlStateNormal];
         [defs setBool:YES forKey:WALLET_NEEDS_BACKUP_KEY];
     }
-    
-    [defs synchronize];
 }
 
 @end

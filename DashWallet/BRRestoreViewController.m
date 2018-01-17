@@ -222,7 +222,6 @@
     [[BRWalletManager sharedInstance] setSeedPhrase:nil];
     self.textView.text = nil;
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:WALLET_NEEDS_BACKUP_KEY];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     
     UIViewController *p = self.navigationController.presentingViewController.presentingViewController;
     

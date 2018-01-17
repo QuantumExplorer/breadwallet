@@ -517,7 +517,6 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         }];
         
         [[NSUserDefaults standardUserDefaults] removeObjectForKey:PIN_UNLOCK_TIME_KEY];
-        [[NSUserDefaults standardUserDefaults] synchronize];
         
         setKeychainData(nil, CREATION_TIME_KEY, NO);
         setKeychainData(nil, EXTENDED_0_PUBKEY_KEY_BIP44, NO);
@@ -1334,7 +1333,6 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                                  NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
                                                  [defs setObject:lastTradePriceNumber forKey:POLONIEX_DASH_BTC_PRICE_KEY];
                                                  [defs setObject:[NSDate date] forKey:POLONIEX_DASH_BTC_UPDATE_TIME_KEY];
-                                                 [defs synchronize];
                                                  [self refreshBitcoinDashPrice];
                                              }
                                          }
@@ -1384,7 +1382,6 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                                  
                                                  [defs setObject:dash_usd forKey:DASHCENTRAL_DASH_BTC_PRICE_KEY];
                                                  [defs setObject:[NSDate date] forKey:DASHCENTRAL_DASH_BTC_UPDATE_TIME_KEY];
-                                                 [defs synchronize];
                                                  [self refreshBitcoinDashPrice];
 #if EXCHANGE_RATES_LOGGING
                                                  NSLog(@"dash central exchange rate updated to %@/%@", [self localCurrencyStringForDashAmount:DUFFS],
@@ -1541,7 +1538,6 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
         [defs setObject:self.currencyCodes forKey:CURRENCY_CODES_KEY];
         [defs setObject:self.currencyNames forKey:CURRENCY_NAMES_KEY];
         [defs setObject:self.currencyPrices forKey:CURRENCY_PRICES_KEY];
-        [defs synchronize];
 #if EXCHANGE_RATES_LOGGING
         NSLog(@"bitcoin exchange rate updated to %@/%@", [self localCurrencyStringForDashAmount:DUFFS],
               [self stringForDashAmount:DUFFS]);
