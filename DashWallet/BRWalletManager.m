@@ -51,7 +51,10 @@
 #define BITCOIN_TICKER_URL  @"https://bitpay.com/rates"
 #define POLONIEX_TICKER_URL  @"https://poloniex.com/public?command=returnOrderBook&currencyPair=BTC_DASH&depth=1"
 #define DASHCENTRAL_TICKER_URL  @"https://www.dashcentral.org/api/v1/public"
+#define DASHPAY_TICKER_URL  @"https://dashpay.info/api/v0/prices"
 #define TICKER_REFRESH_TIME 60.0
+#define DASHPAY_MAX_TIMEOUT (60.0*60.0)
+#define DASHPAY_TIMEOUT_MULTIPLIER 2.0
 
 #define SEED_ENTROPY_LENGTH   (128/8)
 #define SEC_ATTR_SERVICE      @"org.dashfoundation.dash"
@@ -66,6 +69,8 @@
 #define POLONIEX_DASH_BTC_UPDATE_TIME_KEY  @"POLONIEX_DASH_BTC_UPDATE_TIME"
 #define DASHCENTRAL_DASH_BTC_PRICE_KEY @"DASHCENTRAL_DASH_BTC_PRICE"
 #define DASHCENTRAL_DASH_BTC_UPDATE_TIME_KEY @"DASHCENTRAL_DASH_BTC_UPDATE_TIME"
+#define DASHPAY_DASH_BTC_PRICE_KEY @"DASHPAY_DASH_BTC_PRICE"
+#define DASHPAY_DASH_BTC_UPDATE_TIME_KEY @"DASHPAY_DASH_BTC_UPDATE_TIME"
 #define SPEND_LIMIT_AMOUNT_KEY  @"SPEND_LIMIT_AMOUNT"
 #define SECURE_TIME_KEY         @"SECURE_TIME"
 #define FEE_PER_KB_KEY          @"FEE_PER_KB"
@@ -223,6 +228,8 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 @property (nonatomic, strong) NSNumber * _Nullable localCurrencyBitcoinPrice; // exchange rate in local currency units per bitcoin
 @property (nonatomic, strong) NSNumber * _Nullable localCurrencyDashPrice;
 
+@property (nonatomic, assign) NSTimeInterval dashPayNextRefreshAfter;
+
 @end
 
 @implementation BRWalletManager
@@ -244,6 +251,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     if (! (self = [super init])) return nil;
     
     [NSManagedObject setConcurrencyType:NSPrivateQueueConcurrencyType];
+    self.dashPayNextRefreshAfter = TICKER_REFRESH_TIME;
     self.sequence = [BRBIP32Sequence new];
     self.mnemonic = [BRBIP39Mnemonic new];
     self.reachability = [Reachability reachabilityForInternetConnection];
@@ -340,8 +348,7 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
     [defs stringForKey:LOCAL_CURRENCY_CODE_KEY] : [[NSLocale currentLocale] objectForKey:NSLocaleCurrencyCode];
     dispatch_async(dispatch_get_main_queue(), ^{
         [self updateBitcoinExchangeRate];
-        [self updateDashExchangeRate];
-        [self updateDashCentralExchangeRateFallback];
+        [self updateDashPayExchangeRate];
     });
 }
 
@@ -1237,39 +1244,14 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 
 -(NSNumber*)bitcoinDashPrice {
     if (_bitcoinDashPrice.doubleValue == 0) {
-        NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
-        
-        double poloniexPrice = [[defs objectForKey:POLONIEX_DASH_BTC_PRICE_KEY] doubleValue];
-        double dashcentralPrice = [[defs objectForKey:DASHCENTRAL_DASH_BTC_PRICE_KEY] doubleValue];
-        if (poloniexPrice > 0) {
-            if (dashcentralPrice > 0) {
-                _bitcoinDashPrice = @((poloniexPrice + dashcentralPrice)/2.0);
-            } else {
-                _bitcoinDashPrice = @(poloniexPrice);
-            }
-        } else if (dashcentralPrice > 0) {
-            _bitcoinDashPrice = @(dashcentralPrice);
-        }
+        _bitcoinDashPrice = @([self lastBitcoinDashPrice]);
     }
     return _bitcoinDashPrice;
 }
 
 - (void)refreshBitcoinDashPrice{
-    NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
-    double poloniexPrice = [[defs objectForKey:POLONIEX_DASH_BTC_PRICE_KEY] doubleValue];
-    double dashcentralPrice = [[defs objectForKey:DASHCENTRAL_DASH_BTC_PRICE_KEY] doubleValue];
-    NSNumber * newPrice = 0;
-    if (poloniexPrice > 0) {
-        if (dashcentralPrice > 0) {
-            newPrice = @((poloniexPrice + dashcentralPrice)/2.0);
-        } else {
-            newPrice = @(poloniexPrice);
-        }
-    } else if (dashcentralPrice > 0) {
-        newPrice = @(dashcentralPrice);
-    }
-    
     if (! _wallet ) return;
+    NSNumber *newPrice = @([self lastBitcoinDashPrice]);
     //if ([newPrice doubleValue] == [_bitcoinDashPrice doubleValue]) return;
     _bitcoinDashPrice = newPrice;
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -1278,11 +1260,41 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
 }
 
 
+- (double)lastBitcoinDashPrice {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    double poloniexPrice = [defaults doubleForKey:POLONIEX_DASH_BTC_PRICE_KEY];
+    double dashcentralPrice = [defaults doubleForKey:DASHCENTRAL_DASH_BTC_PRICE_KEY];
+    double dashpayPrice = [defaults doubleForKey:DASHPAY_DASH_BTC_PRICE_KEY];
+    NSDate *poloniexLastUpdate = [defaults objectForKey:POLONIEX_DASH_BTC_UPDATE_TIME_KEY];
+    NSDate *dashcentralLastUpdate = [defaults objectForKey:DASHCENTRAL_DASH_BTC_UPDATE_TIME_KEY];
+    NSDate *dashpayLastUpdate = [defaults objectForKey:DASHPAY_DASH_BTC_UPDATE_TIME_KEY];
+    
+    NSComparisonResult dashpayPoloniexComparison = [dashpayLastUpdate compare:poloniexLastUpdate];
+    NSComparisonResult dashpayDashcentralComparison = [dashpayLastUpdate compare:dashcentralLastUpdate];
+    if (dashpayPrice > 0 && (dashpayPoloniexComparison != NSOrderedAscending || dashpayDashcentralComparison != NSOrderedAscending)) {
+        return dashpayPrice;
+    }
+    
+    if (poloniexPrice > 0) {
+        if (dashcentralPrice > 0) {
+            return (poloniexPrice + dashcentralPrice) / 2.0;
+        }
+        else {
+            return poloniexPrice;
+        }
+    }
+    else if (dashcentralPrice > 0) {
+        return dashcentralPrice;
+    }
+    
+    return 0.0;
+}
+
 // until there is a public api for dash prices among multiple currencies it's better that we pull Bitcoin prices per currency and convert it to dash
-- (void)updateDashExchangeRate
+- (void)updatePoloniexExchangeRate
 {
-    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateDashExchangeRate) object:nil];
-    [self performSelector:@selector(updateDashExchangeRate) withObject:nil afterDelay:TICKER_REFRESH_TIME];
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updatePoloniexExchangeRate) object:nil];
+    [self performSelector:@selector(updatePoloniexExchangeRate) withObject:nil afterDelay:TICKER_REFRESH_TIME];
     if (self.reachability.currentReachabilityStatus == NotReachable) return;
     
     
@@ -1383,6 +1395,94 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                      }
       ] resume];
     
+}
+
+- (void)updateDashPayExchangeRate {
+    [self rescheduleDashPayUpdate];
+    if (self.reachability.currentReachabilityStatus == NotReachable) return;
+    
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:DASHPAY_TICKER_URL]
+                                         cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30.0];
+    
+    [[[NSURLSession sharedSession] dataTaskWithRequest:req
+                                     completionHandler:^(NSData *data, NSURLResponse *response, NSError *connectionError) {
+                                         BOOL failed = NO;
+                                         
+                                         if (((((NSHTTPURLResponse*)response).statusCode /100) != 2) || connectionError) {
+                                             NSLog(@"connectionError %@ (status %ld)", connectionError,(long)((NSHTTPURLResponse*)response).statusCode);
+                                             failed = YES;
+                                         }
+                                         
+                                         NSUserDefaults *defs = [NSUserDefaults standardUserDefaults];
+                                         
+                                         if (!failed && [response isKindOfClass:[NSHTTPURLResponse class]]) { // store server timestamp
+                                             NSString *date = [(NSHTTPURLResponse *)response allHeaderFields][@"Date"];
+                                             NSTimeInterval now = [[[NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeDate error:nil]
+                                                                    matchesInString:date options:0 range:NSMakeRange(0, date.length)].lastObject
+                                                                   date].timeIntervalSinceReferenceDate;
+                                             
+                                             if (now > self.secureTime) [defs setDouble:now forKey:SECURE_TIME_KEY];
+                                         }
+                                         
+                                         if (!failed) {
+                                             NSError *error = nil;
+                                             NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+                                             if (!error) {
+                                                 // TODO: replace "kraken" with an average
+                                                 NSNumber *dash_btc = @([json[@"kraken"][@"DASH_BTC"] doubleValue]);
+                                                 if (dash_btc && dash_btc.doubleValue > 0.0) {
+                                                     [defs setObject:dash_btc forKey:DASHPAY_DASH_BTC_PRICE_KEY];
+                                                     [defs setObject:[NSDate date] forKey:DASHPAY_DASH_BTC_UPDATE_TIME_KEY];
+                                                     
+                                                     dispatch_async(dispatch_get_main_queue(), ^{
+                                                         if (self.dashPayNextRefreshAfter > TICKER_REFRESH_TIME) {
+                                                             self.dashPayNextRefreshAfter = TICKER_REFRESH_TIME;
+                                                             [self rescheduleDashPayUpdate];
+                                                         }
+                                                         
+                                                         // cancels fallback
+                                                         [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updatePoloniexExchangeRate) object:nil];
+                                                         [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateDashCentralExchangeRateFallback) object:nil];
+                                                     });
+                                                     
+                                                     [self refreshBitcoinDashPrice];
+#if EXCHANGE_RATES_LOGGING
+                                                     NSLog(@"dashpay exchange rate updated to %@/%@", [self localCurrencyStringForDashAmount:DUFFS],
+                                                           [self stringForDashAmount:DUFFS]);
+#endif
+                                                 }
+                                                 else {
+                                                     failed = YES;
+                                                 }
+                                             }
+                                             else {
+                                                 failed = YES;
+                                             }
+                                         }
+                                         
+                                         if (failed) {
+                                             dispatch_async(dispatch_get_main_queue(), ^{
+                                                 if (self.dashPayNextRefreshAfter * DASHPAY_TIMEOUT_MULTIPLIER < DASHPAY_MAX_TIMEOUT) {
+                                                     self.dashPayNextRefreshAfter = self.dashPayNextRefreshAfter * DASHPAY_TIMEOUT_MULTIPLIER;
+                                                 }
+                                                 else {
+                                                     self.dashPayNextRefreshAfter = DASHPAY_MAX_TIMEOUT;
+                                                 }
+                                                 [self rescheduleDashPayUpdate];
+                                                 
+                                                 // fallback
+                                                 [self updatePoloniexExchangeRate];
+                                                 [self updateDashCentralExchangeRateFallback];
+                                             });
+                                         }
+                                     }
+      ] resume];
+    
+}
+
+- (void)rescheduleDashPayUpdate {
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(updateDashPayExchangeRate) object:nil];
+    [self performSelector:@selector(updateDashPayExchangeRate) withObject:nil afterDelay:self.dashPayNextRefreshAfter];
 }
 
 - (void)updateBitcoinExchangeRate
