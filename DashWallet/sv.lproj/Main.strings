@@ -65,13 +65,13 @@
 /* Class = "UINavigationItem"; title = "confirm:"; ObjectID = "fQN-xb-SYb"; */
 "fQN-xb-SYb.title" = "bekräfta:";
 
-/* Class = "UILabel"; text = "Send DASH"; ObjectID = "l5l-JR-LKA"; */
+/* Class = "UILabel"; text = "Send $PAC"; ObjectID = "l5l-JR-LKA"; */
 "l5l-JR-LKA.text" = "skicka pengar:";
 
 /* Class = "UINavigationItem"; title = "recovery phrase:"; ObjectID = "ooJ-EA-DFl"; */
 "ooJ-EA-DFl.title" = "återställningsfras:";
 
-/* Class = "UILabel"; text = "Receive DASH"; ObjectID = "qel-3J-2VC"; */
+/* Class = "UILabel"; text = "Receive $PAC"; ObjectID = "qel-3J-2VC"; */
 "qel-3J-2VC.text" = "ta emot pengar:";
 
 /* Class = "UITableViewController"; title = "transaction details"; ObjectID = "s4T-yd-VfX"; */

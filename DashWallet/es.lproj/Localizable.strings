@@ -3,7 +3,7 @@
 " and " = " y ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ es para 'mDASH'. %@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ es para 'm$PAC'. %@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ no está permitido accesar a la cámara";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nNecesitas un Código de acceso para proteger tu cartera. Ve a configuración y activa el Código de acceso para continuar.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nDIRECCIÓN YA UTILIZADA\nlas direcciones dash están previstas para ser utilizadas solo una vez\nre-utilizar reduce la privacidad para ambos usted y el receptor, puede resultar en una pérdida si el receptor no tiene directamente control de la dirección.";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nDIRECCIÓN YA UTILIZADA\nlas direcciones $PAC están previstas para ser utilizadas solo una vez\nre-utilizar reduce la privacidad para ambos usted y el receptor, puede resultar en una pérdida si el receptor no tiene directamente control de la dirección.";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\npermitir el acceso a la cámara en\nConfiguración->Privacidad->Cámara->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nNO permitas que nadie vea tu frase de\nrecuperación, podrían usar tus dash.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nNO permitas que nadie vea tu frase de\nrecuperación, podrían usar tus $PAC.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nNO tomes una captura de pantalla.\nLas capturas son visibles para otras aplicaciones\ny dispositivos.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ solicita una dirección para pagarte. Deseas autorizarlo?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "La aplicación %@ desea recibir su Llave Maestra Pública. Esto puede ser usado para seguir el rastro de su cartera, no puede ser utilizado para mover su Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "La aplicación %@ desea recibir su Llave Maestra Pública. Esto puede ser usado para seguir el rastro de su cartera, no puede ser utilizado para mover su $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "contraseña incorrecta, prueba otra vez";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "bloque #%1$d de %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Comprar Dash";
+"Buy $PAC" = "Comprar $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Compra dash en dashwallet!";
+"Buy $PAC in $pacwallet!" = "Compra $PAC en $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "cancelar";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "quitar nodo de confianza?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "el porta papeles no contiene una dirección válida de dash o bitcoin";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "el porta papeles no contiene una dirección válida de $PAC o bitcoin";
 
 /* No comment provided by engineer. */
 "close app" = "cerrar app";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "no se pudo barrer el saldo";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "no se pudo transmitir el pago a la red dash";
+"couldn't transmit payment to $PAC network" = "no se pudo transmitir el pago a la red $PAC";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dirección de dash";
+"$PAC address" = "Dirección de $PAC";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Las direcciones de dash también pueden copiarse en el portapapeles. Una dirección de dash siempre comienza por \"X\" o \"7\".";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "Las direcciones de $PAC también pueden copiarse en el portapapeles. Una dirección de $PAC siempre comienza por \"X\" o \"7\".";
 
 /* No comment provided by engineer. */
-"dash network fee" = "cuota de red de dash";
+"$PAC network fee" = "cuota de red de $PAC";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "los pagos en dash no pueden ser inferiores a %@";
+"$PAC payments can't be less than %@" = "los pagos en $PAC no pueden ser inferiores a %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "transacción de dash no firmada";
+"$PAC transaction not signed" = "transacción de $PAC no firmada";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "los resultados de la transacción de dash no pueden ser inferiores a %@";
+"$PAC transaction outputs can't be less than %@" = "los resultados de la transacción de $PAC no pueden ser inferiores a %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus $PAC).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus dash). Borra inmediatamente esta cartera para restablecerla en un dispositivo seguro.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "DISPOSITIVO DE SEGURIDAD DUDOSA\nCualquier aplicación de 'jailbreak' puede acceder a la cadena de datos de otras aplicaciones (y robar tus $PAC). Borra inmediatamente esta cartera para restablecerla en un dispositivo seguro.";
 
 /* No comment provided by engineer. */
 "do it later" = "hazlo más tarde";
@@ -237,7 +237,7 @@
 "enter old passcode" = "introduce el Código de acceso antiguo";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "error en la firma de transacción de dash";
+"error signing $PAC transaction" = "error en la firma de transacción de $PAC";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "error en la firma de transacción";
@@ -282,13 +282,13 @@
 "insufficient funds" = "saldo insuficiente";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "fondos insuficientes para la cuota de red dash";
+"insufficient funds for $PAC network fee" = "fondos insuficientes para la cuota de red $PAC";
 
 /* No comment provided by engineer. */
 "INVALID" = "NO VÁLIDO";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Permite a otros escanear este código QR para obtener tu dirección dash. Cualquiera puede enviar dash a tu cartera transfiriéndolos a tu dirección.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Permite a otros escanear este código QR para obtener tu dirección $PAC. Cualquiera puede enviar $PAC a tu cartera transfiriéndolos a tu dirección.";
 
 /* No comment provided by engineer. */
 "minute" = "minuto";
@@ -315,22 +315,22 @@
 "no peers found" = "no se encontraron pares";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "no es un código QR de dash o bitcoin";
+"not a $PAC or bitcoin QR code" = "no es un código QR de $PAC o bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "no es una dirección válida de bitcoin";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "no es una dirección válida de dash";
+"not a valid $PAC address" = "no es una dirección válida de $PAC";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "no es una dirección válida de dash o bitcoin";
+"not a valid $PAC or bitcoin address" = "no es una dirección válida de $PAC o bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "no es una clave privada válida";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "no conectado a la red dash";
+"not connected to the $PAC network" = "no conectado a la red $PAC";
 
 /* No comment provided by engineer. */
 "ok" = "de acuerdo";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "cambio: %@ = %@\nactualizado: %@\nblock # %d de %d\npares conectados: %d\npares descargados: %@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Recibe dash en esta dirección: %@";
+"Receive $PAC at this address: %@" = "Recibe $PAC en esta dirección: %@";
 
 /* No comment provided by engineer. */
 "received" = "recibido";
@@ -423,7 +423,7 @@
 "retry" = "reintentar";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Escanee el código QR de terceros para obtener su dirección dash o bitcoin. Puede enviar un pago a cualquier poseedor de una dirección.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Escanee el código QR de terceros para obtener su dirección $PAC o bitcoin. Puede enviar un pago a cualquier poseedor de una dirección.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Las capturas de pantalla son visibles para otras aplicaciones y dispositivos. Genere una nueva frase de recuperación y téngala en secreto.";
@@ -444,7 +444,7 @@
 "send" = "enviar";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "¿Enviar %1$@ (%2$@) de esta clave privada a su cartera? La red dash deducirá una tasa de %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "¿Enviar %1$@ (%2$@) de esta clave privada a su cartera? La red $PAC deducirá una tasa de %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "enviar dirección como correo electrónico";
@@ -519,13 +519,13 @@
 "the app will now close" = "la aplicación se cerrará ahora";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Esta es su dirección dash. Pulse para copiarla o enviarla por correo electrónico o sms. La dirección cambiará cada vez que reciba fondos, si bien las direcciones antiguas funcionarán siempre.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Esta es su dirección $PAC. Pulse para copiarla o enviarla por correo electrónico o sms. La dirección cambiará cada vez que reciba fondos, si bien las direcciones antiguas funcionarán siempre.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "Este es tu saldo en dash";
+"This is your $PAC balance." = "Este es tu saldo en $PAC";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Este es su saldo dash. Dash es una moneda. La tasa de cambio fluctúa con el mercado.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Este es su saldo $PAC. $PAC es una moneda. La tasa de cambio fluctúa con el mercado.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "esta dirección de pago ya está en su cartera";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ANOTE SU FRASE DE RECUPERACIÓN";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "Usted puede comprar dash en\ndashwallet con efectivo o\ntransferencia bancaria.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "Usted puede comprar $PAC en\n$pacwallet con efectivo o\ntransferencia bancaria.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "Debe ingresar su pin para entrar a dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "Debe ingresar su pin para entrar a $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "¡ha recibido dash!";
+"you received $PAC!" = "¡ha recibido $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Su cartera puede estar desincronizada.\nCon frecuencia se puede solucionar escaneando de nuevo la cadena de bloques.";

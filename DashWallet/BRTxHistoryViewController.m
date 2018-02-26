@@ -591,7 +591,7 @@ static NSString *dateFormat(NSString *template)
                     localCurrencyLabel.text = [NSString stringWithFormat:@"(%@)",
                                                [manager localCurrencyStringForDashAmount:received]];
                     sentLabel.text = NSLocalizedString(@"received", nil);
-                    sentLabel.textColor = [UIColor colorWithRed:0.0 green:0.75 blue:0.0 alpha:1.0];
+                    sentLabel.textColor = [UIColor colorWithRed:255.0 green:255.75 blue:255.0 alpha:1.0];
                 }
 
                 if (! unconfirmedLabel.hidden) {
@@ -600,7 +600,7 @@ static NSString *dateFormat(NSString *template)
                 }
                 else {
                     sentLabel.layer.cornerRadius = 3.0;
-                    sentLabel.layer.borderWidth = 0.5;
+                    sentLabel.layer.borderWidth = 0.8;
                     sentLabel.text = [sentLabel.text stringByAppendingString:@"  "];
                     sentLabel.layer.borderColor = sentLabel.textColor.CGColor;
                     sentLabel.highlightedTextColor = sentLabel.textColor;

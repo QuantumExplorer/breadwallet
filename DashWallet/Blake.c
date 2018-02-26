@@ -1,6 +1,6 @@
 //
 //  Blake.h
-//  DashWallet
+//  $PACWallet
 //
 /* $Id: blake.c 252 2011-06-07 17:55:14Z tp $ */
 /*

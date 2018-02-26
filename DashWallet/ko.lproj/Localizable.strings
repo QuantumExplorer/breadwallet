@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%1$@ is for 'mDASH'. %2$@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%1$@ is for 'm$PAC'. %2$@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@에게 카메라 접근 권한이 없습니다";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\n지갑을 보호하기 위해비밀번호가 필요합니다. 설정에 가서 비밀번호를 활성화해주세요.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\n설정->개인 정보 보호->카메라->%@\n에서 이 애플리케이션의 카메라 접근을 허용해 주십시요.";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\n절대로 다른 사람에게 복원 문구를 보여주면 안됩니다. \n그 사람이 당신의 빗코인을 써버릴 수 있습니다.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\n절대로 다른 사람에게 복원 문구를 보여주면 안됩니다. \n그 사람이 당신의 빗코인을 써버릴 수 있습니다.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "스크린샷을 찍지 마세요.\n \n다른 기기나 앱들이 이 스크린샷을 읽을 수도 있습니다.";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "잘못된 암호입니다, 다시 시도해주세요";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "%2$d개중 %1$d번째 블록";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Buy Dash";
+"Buy $PAC" = "Buy $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Buy dash in dashwallet!";
+"Buy $PAC in $pacwallet!" = "Buy $PAC in $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "취소";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "clipboard doesn't contain a valid dash or bitcoin address";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "clipboard doesn't contain a valid $PAC or bitcoin address";
 
 /* No comment provided by engineer. */
 "close app" = "앱 닫기";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "잔액을 지갑으로 옮기지 못했습니다";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "지불 내용을 대쉬 네트워크에 전송할 수 없었습니다";
+"couldn't transmit payment to $PAC network" = "지불 내용을 대쉬 네트워크에 전송할 수 없었습니다";
 
 /* No comment provided by engineer. */
-"Dash address" = "대쉬 주소";
+"$PAC address" = "대쉬 주소";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "대쉬 주소를 클립보드로 복사할 수도 있습니다. 대쉬 주소는 항상 'X'이나 '7'으로 시작합니다.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "대쉬 주소를 클립보드로 복사할 수도 있습니다. 대쉬 주소는 항상 'X'이나 '7'으로 시작합니다.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "대쉬 네트워크 수수료";
+"$PAC network fee" = "대쉬 네트워크 수수료";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "대쉬 송금은 %@보다 작을 수 없습니다";
+"$PAC payments can't be less than %@" = "대쉬 송금은 %@보다 작을 수 없습니다";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "대쉬 거래가 서명되지 않음";
+"$PAC transaction not signed" = "대쉬 거래가 서명되지 않음";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "대쉬 거래 금액은 %@보다 낮을 수 없습니다";
+"$PAC transaction outputs can't be less than %@" = "대쉬 거래 금액은 %@보다 낮을 수 없습니다";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "장치 보안이 손상된 상태입니다\n\n단말기가 탈옥 돼 있으면 어떤 '탈옥'앱이든 다른앱의 키체인 데이터에 접근할 수 있습니다(그리고 당신의 대쉬을 훔칠 수 있습니다).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "장치 보안이 손상된 상태입니다\n\n단말기가 탈옥 돼 있으면 어떤 '탈옥'앱이든 다른앱의 키체인 데이터에 접근할 수 있습니다(그리고 당신의 대쉬을 훔칠 수 있습니다).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "장치 보안이 변형된 상태입니다\n단말기가 탈옥 돼 있으면 어떤 '탈옥'앱이든 다른앱의 키체인 데이터에 접근할 수 있습니다(그리고 당신의 대쉬을 훔칠 수 있습니다).\n즉시 지갑을 지우고 안전한 장치에서 지갑을 복구해주세요.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "장치 보안이 변형된 상태입니다\n단말기가 탈옥 돼 있으면 어떤 '탈옥'앱이든 다른앱의 키체인 데이터에 접근할 수 있습니다(그리고 당신의 대쉬을 훔칠 수 있습니다).\n즉시 지갑을 지우고 안전한 장치에서 지갑을 복구해주세요.";
 
 /* No comment provided by engineer. */
 "do it later" = "나중에 하기";
@@ -237,7 +237,7 @@
 "enter old passcode" = "이전 암호 입력";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "대쉬 거래 서명 중 오류 발생";
+"error signing $PAC transaction" = "대쉬 거래 서명 중 오류 발생";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "거래 서명 중 오류 발생";
@@ -282,13 +282,13 @@
 "insufficient funds" = "잔액 부족";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "대쉬 네트워크 수수료로 낼 잔액이 부족합니다";
+"insufficient funds for $PAC network fee" = "대쉬 네트워크 수수료로 낼 잔액이 부족합니다";
 
 /* No comment provided by engineer. */
 "INVALID" = "유효하지 않음";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "다른 사람이 QR코드를 스캔해서 당신의 대쉬 주소를 알수 있습니다. 당신의 대쉬 주소를 알려주면 누구든지 당신의 지갑으로 대쉬을 보낼 수 있습니다.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "다른 사람이 QR코드를 스캔해서 당신의 대쉬 주소를 알수 있습니다. 당신의 대쉬 주소를 알려주면 누구든지 당신의 지갑으로 대쉬을 보낼 수 있습니다.";
 
 /* No comment provided by engineer. */
 "minute" = "분";
@@ -315,22 +315,22 @@
 "no peers found" = "피어를 찾을 수 없습니다";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "대쉬 이나 비트코인 QR 코드가 아닙니다";
+"not a $PAC or bitcoin QR code" = "대쉬 이나 비트코인 QR 코드가 아닙니다";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "유효한 비트코인 주소가 아님";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "유효한 대쉬 주소가 아님";
+"not a valid $PAC address" = "유효한 대쉬 주소가 아님";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "유효한 대쉬 이나 비트코인 주소가 아님";
+"not a valid $PAC or bitcoin address" = "유효한 대쉬 이나 비트코인 주소가 아님";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "유효한 비밀 키가 아님";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "대쉬 네트워크에 연결돼 있지 않습니다";
+"not connected to the $PAC network" = "대쉬 네트워크에 연결돼 있지 않습니다";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "이 주소로 대쉬을 받습니다: %@";
+"Receive $PAC at this address: %@" = "이 주소로 대쉬을 받습니다: %@";
 
 /* No comment provided by engineer. */
 "received" = "받음";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "다른 사람의 대쉬 이나 비트코인 주소를 얻으려면 QR코드를 스캔하세요. 주소가 있으면 누구에게든 돈을 보낼 수 있습니다";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "다른 사람의 대쉬 이나 비트코인 주소를 얻으려면 QR코드를 스캔하세요. 주소가 있으면 누구에게든 돈을 보낼 수 있습니다";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "스크린샷은 다른 앱이나 기기에서 볼  수 있습니다. 복원 문구를 새로 만들고 비밀로 간직하세요.";
@@ -444,7 +444,7 @@
 "send" = "send";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "이 비밀 키에서 %1$@ (%2$@)를 당신의 지갑으로 옮기겠습니까? 대쉬 네트워크에 %3$@ (%4$@)의 수수료가 지급됩니다.";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "이 비밀 키에서 %1$@ (%2$@)를 당신의 지갑으로 옮기겠습니까? 대쉬 네트워크에 %3$@ (%4$@)의 수수료가 지급됩니다.";
 
 /* No comment provided by engineer. */
 "send address as email" = "이메일로 주소 보내기";
@@ -519,13 +519,13 @@
 "the app will now close" = "앱을 종료합니다";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "이게 당신의 대쉬 주소입니다. 탭 해서 복사하거나 이메일, SMS로 다른 사람에게 보내세요. 주소는 당신이 돈을 받을 때마다 새로 생성됩니다. 하지만 이전 주소도 언제든지 사용할 수 있습니다.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "이게 당신의 대쉬 주소입니다. 탭 해서 복사하거나 이메일, SMS로 다른 사람에게 보내세요. 주소는 당신이 돈을 받을 때마다 새로 생성됩니다. 하지만 이전 주소도 언제든지 사용할 수 있습니다.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "이게 당신의 대쉬 잔액입니다. 대쉬은 화폐입니다. 환율은 시장 상황에 따라 변합니다.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "이게 당신의 대쉬 잔액입니다. 대쉬은 화폐입니다. 환율은 시장 상황에 따라 변합니다.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "이 결제 주소는 당신 지갑에 있는 주소입니다";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "복원 문구를 옮겨 적어주세요";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "대쉬을 받았습니다!";
+"you received $PAC!" = "대쉬을 받았습니다!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "지갑이 동기화 돼있지 않은 것 같습니다.\n보통 블록체인을 재스캔하면 고쳐집니다.";

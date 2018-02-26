@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ is for 'mDASH'. %@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ is for 'm$PAC'. %@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ har ikke tilgang til kameraet";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEn pinkode er nødvendig for å sikre lommeboken din. Gå til innstillinger og slå på pinkode for å fortsette.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\ntillat kameratilgang i\nInnstillinger->Personvern->Kamera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nIKKE la noen se din gjennopprettingsfrase;\nde kan sende dine dash.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nIKKE la noen se din gjennopprettingsfrase;\nde kan sende dine $PAC.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nIKKE TA et skjermbilde\nSkjermbilder er synlige for andre apper\nog enheter.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "feil passord, prøv igjen";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "blokk #%1$d of %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Buy Dash";
+"Buy $PAC" = "Buy $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Buy dash in dashwallet!";
+"Buy $PAC in $pacwallet!" = "Buy $PAC in $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "avbryt";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "clipboard doesn't contain a valid dash or bitcoin address";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "clipboard doesn't contain a valid $PAC or bitcoin address";
 
 /* No comment provided by engineer. */
 "close app" = "avslutt app";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "kunne ikke sweepe saldo";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "kunne ikke kringkaste betaling til Dash-nettverket";
+"couldn't transmit payment to $PAC network" = "kunne ikke kringkaste betaling til $PAC-nettverket";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash-adresse";
+"$PAC address" = "$PAC-adresse";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Dash-adresser kan også kopieres til utklippstavlen. En Dash-adresse starter alltid med 'X' eller '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "$PAC-adresser kan også kopieres til utklippstavlen. En $PAC-adresse starter alltid med 'X' eller '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "dash nettverksavgift";
+"$PAC network fee" = "$PAC nettverksavgift";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "beløp for dash-betalinger kan ikke være lavere enn %@";
+"$PAC payments can't be less than %@" = "beløp for $PAC-betalinger kan ikke være lavere enn %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "dash-transaksjon ikke signert";
+"$PAC transaction not signed" = "$PAC-transaksjon ikke signert";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "output for dash-transaksjon kan ikke være lavere enn %@";
+"$PAC transaction outputs can't be less than %@" = "output for $PAC-transaksjon kan ikke være lavere enn %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine $PAC).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "SIKKERHETEN TIL ENHETEN ER KOMPROMITTERT\nEnhver 'jailbreak'-app kan få tilgang til andre appers Keychain data (og stjele dine $PAC).";
 
 /* No comment provided by engineer. */
 "do it later" = "gjør det senere";
@@ -237,7 +237,7 @@
 "enter old passcode" = "angi eldre pinkode";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "feil ved signering av Dash-transaksjon";
+"error signing $PAC transaction" = "feil ved signering av $PAC-transaksjon";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "feil ved signering av transaksjon";
@@ -282,13 +282,13 @@
 "insufficient funds" = "utilstrekkelige midler";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "utilstrekkelige midler for nettverksavgift";
+"insufficient funds for $PAC network fee" = "utilstrekkelige midler for nettverksavgift";
 
 /* No comment provided by engineer. */
 "INVALID" = "UGYLDIG";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "La andre skanne QR-koden for å få din dash adresse. Alle kan sende deg dash ved å bruke din adresse.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "La andre skanne QR-koden for å få din $PAC adresse. Alle kan sende deg $PAC ved å bruke din adresse.";
 
 /* No comment provided by engineer. */
 "minute" = "minutt";
@@ -315,22 +315,22 @@
 "no peers found" = "ingen peers funnet";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "ikke en Dash eller Bitcoin QR-kode";
+"not a $PAC or bitcoin QR code" = "ikke en $PAC eller Bitcoin QR-kode";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "ikke en gyldig Bitcoin-adresse";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "ikke en gyldig Dash-adresse";
+"not a valid $PAC address" = "ikke en gyldig $PAC-adresse";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "ikke en gyldig Dash eller Bitcoin adresse";
+"not a valid $PAC or bitcoin address" = "ikke en gyldig $PAC eller Bitcoin adresse";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ikke en gyldig privat nøkkel";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "ikke tilkoblet Dash-nettverket";
+"not connected to the $PAC network" = "ikke tilkoblet $PAC-nettverket";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Motta dash på denne adressen: %@";
+"Receive $PAC at this address: %@" = "Motta $PAC på denne adressen: %@";
 
 /* No comment provided by engineer. */
 "received" = "mottatt";
@@ -423,13 +423,13 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Skjermbilder er synlige for andre programmer og enheter. Generer en ny gjenopprettingsfrase og hold den hemmelig.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Skjermbilder er synlige for andre programmer og enheter. Dine dash er ikke sikre. Overføre saldoen til en annen lommebok.";
+"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Skjermbilder er synlige for andre programmer og enheter. Dine $PAC er ikke sikre. Overføre saldoen til en annen lommebok.";
 
 /* No comment provided by engineer. */
 "second" = "second";
@@ -444,7 +444,7 @@
 "send" = "send";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "send %1$@ (%2$@) fra denne private nøkkelen til din lommebok? Dash-nettverket vil motta en avgift på %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "send %1$@ (%2$@) fra denne private nøkkelen til din lommebok? $PAC-nettverket vil motta en avgift på %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "send adressen på e-post";
@@ -519,13 +519,13 @@
 "the app will now close" = "appen vil nå avsluttes";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Dette er din Dash-adresse. Trykk for å kopiere den eller sende den via epost eller SMS. Denne adressen vil endres hver gang du mottar midler, men eldre adresser fungerer alltid.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Dette er din $PAC-adresse. Trykk for å kopiere den eller sende den via epost eller SMS. Denne adressen vil endres hver gang du mottar midler, men eldre adresser fungerer alltid.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Dette er mengden dash du har. Dash er en valuta. Vekslingskursen flyter med markedet.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Dette er mengden $PAC du har. $PAC er en valuta. Vekslingskursen flyter med markedet.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "denne betalingsadressen er allerede i din lommebok";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "SKRIV NED DIN GJENOPPRETTINGSFRASE";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "du har mottatt dash!";
+"you received $PAC!" = "du har mottatt $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Din lommebok er usynkronisert.\nDette kan ofte fikses ved å skanne blokkjeden om igjen.";

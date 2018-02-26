@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ is for 'mDASH'. %@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ is for 'm$PAC'. %@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ はカメラへのアクセスを拒否されています。";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\n端末のパスコードを設定しないとウォレットを守ることができません。端末設定にてパスコードを有効にしてから進んでください。";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nカメラへのアクセスを有効化するには\n設定⇒プライバシー⇒カメラ⇒%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "復元フレーズは絶対に\n誰にも見せないで下さい！\n復元フレーズを知っている人は\nあなたのダッシュを\n簡単に盗むことができます。\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "復元フレーズは絶対に\n誰にも見せないで下さい！\n復元フレーズを知っている人は\nあなたのダッシュを\n簡単に盗むことができます。\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nスクリーンショットをご遠慮下さい。\n他のアプリや端末に復元フレーズが\n見えてしまう危険性があります。\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "不正なパスワード、もう一度ご入力ください。";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "ブロック #%1$d / %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Buy Dash";
+"Buy $PAC" = "Buy $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Buy dash in dashwallet!";
+"Buy $PAC in $pacwallet!" = "Buy $PAC in $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "キャンセル";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "clipboard doesn't contain a valid dash or bitcoin address";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "clipboard doesn't contain a valid $PAC or bitcoin address";
 
 /* No comment provided by engineer. */
 "close app" = "アプリを閉じる";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "全残高送金ができませんでした";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "取引をダッシュネットワークへ送信できませんでした";
+"couldn't transmit payment to $PAC network" = "取引をダッシュネットワークへ送信できませんでした";
 
 /* No comment provided by engineer. */
-"Dash address" = "ダッシュアドレス";
+"$PAC address" = "ダッシュアドレス";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "ダッシュアドレスをクリップボードにコピーすることもできます。\nダッシュアドレスは\n常に 'X' または '7' で始まります。";
 
 /* No comment provided by engineer. */
-"dash network fee" = "ダッシュネットワーク手数料";
+"$PAC network fee" = "ダッシュネットワーク手数料";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "ダッシュの送金は %@ 以上でないと送れません。";
+"$PAC payments can't be less than %@" = "ダッシュの送金は %@ 以上でないと送れません。";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "取引が署名されていません";
+"$PAC transaction not signed" = "取引が署名されていません";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "ダッシュの取引出力は %@ 以上でないといけません。";
+"$PAC transaction outputs can't be less than %@" = "ダッシュの取引出力は %@ 以上でないといけません。";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "端末が危険な状態です！！！\n端末を脱獄してしまうと、どの脱獄アプリでもキーチェーンへのアクセスできます。(つまり、あなたのダッシュを簡単に盗めます。)";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "端末が危険な状態です！！！\n端末を脱獄してしまうと、どの脱獄アプリでもキーチェーンへのアクセスできます。(つまり、あなたのダッシュを簡単に盗めます。)";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "端末が危険な状態です！！！\n端末を脱獄してしまうと、どの脱獄アプリでもキーチェーンへのアクセス権限が持てますので、あなたのダッシュウォレットを簡単に盗めます。直ちにこのウォレットを完全削除して、安全な端末にて復元して下さい。";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "端末が危険な状態です！！！\n端末を脱獄してしまうと、どの脱獄アプリでもキーチェーンへのアクセス権限が持てますので、あなたのダッシュウォレットを簡単に盗めます。直ちにこのウォレットを完全削除して、安全な端末にて復元して下さい。";
 
 /* No comment provided by engineer. */
 "do it later" = "後でやります";
@@ -237,7 +237,7 @@
 "enter old passcode" = "現在のパスコードを\nご入力下さい";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "ダッシュ取引署名時エラー";
+"error signing $PAC transaction" = "ダッシュ取引署名時エラー";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "取引署名時エラー";
@@ -282,13 +282,13 @@
 "insufficient funds" = "残高不足";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "ダッシュの\nネットワーク手数料を含めると\n残高が足りません";
+"insufficient funds for $PAC network fee" = "ダッシュの\nネットワーク手数料を含めると\n残高が足りません";
 
 /* No comment provided by engineer. */
 "INVALID" = "無効";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "このQRコードを人に見せる、または\nダッシュアドレスをコピーして人に\n送るとすぐに送金を受け取れます。";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "このQRコードを人に見せる、または\nダッシュアドレスをコピーして人に\n送るとすぐに送金を受け取れます。";
 
 /* No comment provided by engineer. */
 "minute" = "分";
@@ -315,22 +315,22 @@
 "no peers found" = "通信相手が見つかりませんでした。";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "ダッシュまたはビットコインのQRコードではありません";
+"not a $PAC or bitcoin QR code" = "ダッシュまたはビットコインのQRコードではありません";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "有効なビットコインアドレスではありません";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "有効なダッシュアドレスではありません";
+"not a valid $PAC address" = "有効なダッシュアドレスではありません";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "有効なビットコインのQRコインアドレスではありません";
+"not a valid $PAC or bitcoin address" = "有効なビットコインのQRコインアドレスではありません";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "有効な秘密鍵ではありません";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "ダッシュネットワークに接続されていません。";
+"not connected to the $PAC network" = "ダッシュネットワークに接続されていません。";
 
 /* No comment provided by engineer. */
 "ok" = "OK";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "このアドレスでダッシュを受取る： %@";
+"Receive $PAC at this address: %@" = "このアドレスでダッシュを受取る： %@";
 
 /* No comment provided by engineer. */
 "received" = "受取済み";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "ダッシュまたはビットコインアドレスを取得するためにQRコードを見せてもらって下さい。\nダッシュアドレスを持っている人で\nあれば誰にでも送金が可能です。";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "ダッシュまたはビットコインアドレスを取得するためにQRコードを見せてもらって下さい。\nダッシュアドレスを持っている人で\nあれば誰にでも送金が可能です。";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "スクリーン ショットは、他のアプリや\nデバイスに閲覧することができます。\n新しい復元フレーズを作り、\n大事に守って下さい。";
@@ -444,7 +444,7 @@
 "send" = "送金する";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "スキャンした秘密鍵の全残高\n%1$@ (%2$@) を\ndashwallet宛に送金しても\n宜しいですか？\nダッシュネットワークへの\n手数料が %3$@ (%4$@) です。";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "スキャンした秘密鍵の全残高\n%1$@ (%2$@) を\n$pacwallet宛に送金しても\n宜しいですか？\nダッシュネットワークへの\n手数料が %3$@ (%4$@) です。";
 
 /* No comment provided by engineer. */
 "send address as email" = "ダッシュアドレスをメールにて共有";
@@ -519,13 +519,13 @@
 "the app will now close" = "アプリを閉じます";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "これがあなたのダッシュアドレスの一つ。タップすればコピーしたりメールやSMSで共有したりできます。\n取引を行うごとにアドレスは入れ\n替わりますが、一度表示したアドレスに\n対して送られたダッシュインは\nいつまでも自動的に受け取られます。";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "これがあなたのダッシュアドレスの一つ。タップすればコピーしたりメールやSMSで共有したりできます。\n取引を行うごとにアドレスは入れ\n替わりますが、一度表示したアドレスに\n対して送られたダッシュインは\nいつまでも自動的に受け取られます。";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "これがあなたのダッシュ残高です。ダッシュは通貨であり、為替レートが市場の動きにより変動します。";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "これがあなたのダッシュ残高です。ダッシュは通貨であり、為替レートが市場の動きにより変動します。";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "このペイメントアドレスは既にあなたのウォレットに含まれています";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "復元フレーズを書き留めて下さい！";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "ダッシュの着金確認！";
+"you received $PAC!" = "ダッシュの着金確認！";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "あなたのウォレットが同期されていない可能性があります。\nブロックチェーンの再スキャンを行うと直ることが大半です。";

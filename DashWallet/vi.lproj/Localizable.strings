@@ -3,7 +3,7 @@
 " and " = " và ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%1$@ là cho 'mDASH'. %2$@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%1$@ là cho 'm$PAC'. %2$@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ không cho phép truy cập đến chức năng chụp ảnh";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nBạn cần có mật khẩu cho thiết bị để bảo vệ ví của mình. Hãy vào phần Settings của điện thoại và bật mật khẩu lên và tiếp tục.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nĐỊA CHỈ ĐÃ ĐƯỢC SỬ DỤNG\ncác địa chỉ dash chỉ nên sử dụng một lần duy nhất\n\ntái sử dụng địa chỉ làm giảm đi tính riêng tư cho cả bạn lẫn người nhận và dẫn đến tình trạng mất nếu người nhận không quản lý trực tiếp địa chỉ đó";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nĐỊA CHỈ ĐÃ ĐƯỢC SỬ DỤNG\ncác địa chỉ $PAC chỉ nên sử dụng một lần duy nhất\n\ntái sử dụng địa chỉ làm giảm đi tính riêng tư cho cả bạn lẫn người nhận và dẫn đến tình trạng mất nếu người nhận không quản lý trực tiếp địa chỉ đó";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbật tính năng truy cập chụp ảnh trong phần\nSettings->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nĐỪNG để bất cứ ai nhìn thấy cụm từ phục hồi \ncủa bạn hoặc họ sẽ tiêu mất số dash của bạn.";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nĐỪNG để bất cứ ai nhìn thấy cụm từ phục hồi \ncủa bạn hoặc họ sẽ tiêu mất số $PAC của bạn.";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nKHÔNG NÊN chụp ảnh màn hình.\nVì ảnh chụp màn hình hiển thị cho các ứng dụng khác\nvà các thiết bị khác.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Ứng dụng %@ có thể nhận Master Public Key của bạn.  Nó có thể được dùng để theo dõi ví của bạn, nhưng nó không thể dùng để chuyển Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Ứng dụng %@ có thể nhận Master Public Key của bạn.  Nó có thể được dùng để theo dõi ví của bạn, nhưng nó không thể dùng để chuyển $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "sai mật khẩu, hãy thử lại";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "khối #%1$d của %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Mua Dash";
+"Buy $PAC" = "Mua $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Mua dash trong dashwallet!";
+"Buy $PAC in $pacwallet!" = "Mua $PAC trong $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "huỷ bỏ";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "xoá các nút đã tin cậy?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "bộ đệm không chứa địa chỉ hợp lệ của dash hay bitcoin";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "bộ đệm không chứa địa chỉ hợp lệ của $PAC hay bitcoin";
 
 /* No comment provided by engineer. */
 "close app" = "đóng ứng dụng";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "không thể quét số dư";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "không thể gửi thanh toán đến mạng lưới dash";
+"couldn't transmit payment to $PAC network" = "không thể gửi thanh toán đến mạng lưới $PAC";
 
 /* No comment provided by engineer. */
-"Dash address" = "Địa chỉ Dash";
+"$PAC address" = "Địa chỉ $PAC";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Địa chỉ Dash cũng có thể copy vào bộ đệm. Một địa chỉ dash luôn bắt đầu bằng chữ 'X' hoặc '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "Địa chỉ $PAC cũng có thể copy vào bộ đệm. Một địa chỉ $PAC luôn bắt đầu bằng chữ 'X' hoặc '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "phí giao dịch";
+"$PAC network fee" = "phí giao dịch";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "số dash thanh toán không thể nhỏ hơn %@";
+"$PAC payments can't be less than %@" = "số $PAC thanh toán không thể nhỏ hơn %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "giao dịch dash không được ký";
+"$PAC transaction not signed" = "giao dịch $PAC không được ký";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "đầu ra của giao dịch dash không thể ít hơn %@";
+"$PAC transaction outputs can't be less than %@" = "đầu ra của giao dịch $PAC không thể ít hơn %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng 'jailbreak' hay 'phá khoá' nào đều có thể truy cập vào dữ liệu chìa khoá của ứng dụng (và đánh cắp dash của bạn).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng 'jailbreak' hay 'phá khoá' nào đều có thể truy cập vào dữ liệu chìa khoá của ứng dụng (và đánh cắp $PAC của bạn).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng bị 'jailbreak' hay 'phá khoá' nào đều có thể truy cập được vào dữ liệu chìa khoá của ứng dụng (và đánh cắp dash của bạn). Hãy xoá sạch ví này ngay lập tức và phục hồi nó trên một thiết bị an toàn.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "AN NINH THIẾT BỊ BỊ  TỔN HẠI\nBất kỳ ứng dụng bị 'jailbreak' hay 'phá khoá' nào đều có thể truy cập được vào dữ liệu chìa khoá của ứng dụng (và đánh cắp $PAC của bạn). Hãy xoá sạch ví này ngay lập tức và phục hồi nó trên một thiết bị an toàn.";
 
 /* No comment provided by engineer. */
 "do it later" = "làm việc này sau";
@@ -237,7 +237,7 @@
 "enter old passcode" = "nhập mật khẩu cũ";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "lỗi khi ký giao dịch dash";
+"error signing $PAC transaction" = "lỗi khi ký giao dịch $PAC";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "lỗi khi ký giao dịch";
@@ -282,13 +282,13 @@
 "insufficient funds" = "không đủ kinh phí";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "không đủ kinh phí cho phí giao dịch";
+"insufficient funds for $PAC network fee" = "không đủ kinh phí cho phí giao dịch";
 
 /* No comment provided by engineer. */
 "INVALID" = "KHÔNG HỢP LỆ";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Hãy để người kia quét mã QR này để lấy địa chỉ ví dash của bạn. Bất cứ ai cũng có thể gửi dash đến ví của bạn bằng cách chuyển tiền đến địa chỉ của bạn.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Hãy để người kia quét mã QR này để lấy địa chỉ ví $PAC của bạn. Bất cứ ai cũng có thể gửi $PAC đến ví của bạn bằng cách chuyển tiền đến địa chỉ của bạn.";
 
 /* No comment provided by engineer. */
 "minute" = "phút";
@@ -315,22 +315,22 @@
 "no peers found" = "không tìm thấy nút ngang hàng";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "đây phải là mã QR của địa chỉ dash hay bitcoin";
+"not a $PAC or bitcoin QR code" = "đây phải là mã QR của địa chỉ $PAC hay bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "không phải địa chỉ bitcoin hợp lệ";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "không phải một địa chỉ dash hợp lệ";
+"not a valid $PAC address" = "không phải một địa chỉ $PAC hợp lệ";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "không phải địa chỉ hợp lệ của dash hay bitcoin";
+"not a valid $PAC or bitcoin address" = "không phải địa chỉ hợp lệ của $PAC hay bitcoin";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "không phải một khoá riêng hợp lệ";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "chưa được kết nối với mạng lưới của dash";
+"not connected to the $PAC network" = "chưa được kết nối với mạng lưới của $PAC";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "tỷ giá: 1%@ = 1%@\ncập nhật: 1%@\nblock #%d of 2%d\ncác kết nối: 2%d\ndl peer: 1%@\n";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Nhận dash với địa chỉ này: %@";
+"Receive $PAC at this address: %@" = "Nhận $PAC với địa chỉ này: %@";
 
 /* No comment provided by engineer. */
 "received" = "đã nhận";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Hãy quét mã QR của người kia để lấy địa chỉ dash hay bitcoin của họ. Bạn có thể gửi tiền cho bất cứ ai khi có địa chỉ của họ.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Hãy quét mã QR của người kia để lấy địa chỉ $PAC hay bitcoin của họ. Bạn có thể gửi tiền cho bất cứ ai khi có địa chỉ của họ.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Chụp ảnh màn hình có thể nhìn thấy bởi các ứng dụng và thiết bị khác. Hãy sinh ra một cụm từ phục hồi mới và giữ nó bí mật.";
@@ -444,7 +444,7 @@
 "send" = "gửi";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Gửi %1$@ (%2$@) từ khoá riêng này vào ví của bạn? Mạng lưới dash sẽ nhận một mức phí của %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Gửi %1$@ (%2$@) từ khoá riêng này vào ví của bạn? Mạng lưới $PAC sẽ nhận một mức phí của %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "gửi địa chỉ bằng e-mail";
@@ -519,13 +519,13 @@
 "the app will now close" = "ứng dụng sẽ được đóng bây giờ";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Đây là địa chỉ dash của bạn. Chạm vào để chép nó hoặc gửi nó qua email hoặc sms. Địa chỉ sẽ thay đổi mỗi khi bạn nhận tiền, nhưng địa chỉ cũ luôn hoạt động.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Đây là địa chỉ $PAC của bạn. Chạm vào để chép nó hoặc gửi nó qua email hoặc sms. Địa chỉ sẽ thay đổi mỗi khi bạn nhận tiền, nhưng địa chỉ cũ luôn hoạt động.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "Đây là số dư dash của bạn.";
+"This is your $PAC balance." = "Đây là số dư $PAC của bạn.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Đây là số dư dash của bạn. Dash là một loại tiền. Tỷ giá giao dịch có thể thay đổi theo thị trường.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Đây là số dư $PAC của bạn. $PAC là một loại tiền. Tỷ giá giao dịch có thể thay đổi theo thị trường.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "địa chỉ thanh toán này đã có trong ví của bạn";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "HÃY GHI LẠI CỤM TỪ PHỤC HỒI";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "Bây giờ bạn có thể mua dash trong\nví dashwallet hoặc\nchuyển khoản.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "Bây giờ bạn có thể mua $PAC trong\nví $pacwallet hoặc\nchuyển khoản.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "bạn cần nhập mã pin của bạn để truy cập ví dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "bạn cần nhập mã pin của bạn để truy cập ví $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "bạn đã nhận được dash!";
+"you received $PAC!" = "bạn đã nhận được $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Ví của bạn có thể bị mất đồng bộ.\nĐiều này có thể được xử lý bằng cách quét lại blockchain.";

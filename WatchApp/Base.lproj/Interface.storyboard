@@ -9,13 +9,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13756"/>
     </dependencies>
     <scenes>
-        <!--Dash-->
+        <!--$PAC-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller title="Dash" id="AgC-eL-Hgc" customClass="BRAWRootInterfaceController" customModule="WatchApp_Extension">
+                <controller title="$PAC" id="AgC-eL-Hgc" customClass="BRAWRootInterfaceController" customModule="WatchApp_Extension">
                     <items>
                         <group width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="LoadingIndicator" id="wKY-qb-B8a" userLabel="Loading indicator"/>
-                        <label alignment="center" verticalAlignment="center" text="Open DASH iPhone app to setup your wallet" textAlignment="left" numberOfLines="0" id="VXj-KF-nqM"/>
+                        <label alignment="center" verticalAlignment="center" text="Open $PAC iPhone app to setup your wallet" textAlignment="left" numberOfLines="0" id="VXj-KF-nqM"/>
                     </items>
                     <connections>
                         <outlet property="loadingIndicator" destination="wKY-qb-B8a" id="38C-SN-66a"/>
@@ -40,7 +40,7 @@
                                 <group width="30" height="30" alignment="center" verticalAlignment="center" backgroundImage="LoadingIndicator" id="9vJ-Sn-Eit" userLabel="Loading indicator"/>
                                 <group width="1" alignment="left" id="7AP-2v-fcP" userLabel="Setup wallet message container">
                                     <items>
-                                        <label alignment="center" verticalAlignment="center" text="Open DASH iPhone app to setup your wallet" textAlignment="left" numberOfLines="0" id="Gat-bm-t3w"/>
+                                        <label alignment="center" verticalAlignment="center" text="Open $PAC iPhone app to setup your wallet" textAlignment="left" numberOfLines="0" id="Gat-bm-t3w"/>
                                     </items>
                                 </group>
                                 <group width="1" alignment="left" layout="vertical" id="z73-6R-jav" userLabel="Balance info container">

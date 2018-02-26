@@ -65,14 +65,14 @@
 /* Class = "UINavigationItem"; title = "confirm:"; ObjectID = "fQN-xb-SYb"; */
 "fQN-xb-SYb.title" = "Подтверждение:";
 
-/* Class = "UILabel"; text = "Send DASH"; ObjectID = "l5l-JR-LKA"; */
-"l5l-JR-LKA.text" = "Отправить DASH:";
+/* Class = "UILabel"; text = "Send $PAC"; ObjectID = "l5l-JR-LKA"; */
+"l5l-JR-LKA.text" = "Отправить $PAC:";
 
 /* Class = "UINavigationItem"; title = "recovery phrase:"; ObjectID = "ooJ-EA-DFl"; */
 "ooJ-EA-DFl.title" = "Фраза восстановления:";
 
-/* Class = "UILabel"; text = "Receive DASH"; ObjectID = "qel-3J-2VC"; */
-"qel-3J-2VC.text" = "Получить DASH:";
+/* Class = "UILabel"; text = "Receive $PAC"; ObjectID = "qel-3J-2VC"; */
+"qel-3J-2VC.text" = "Получить $PAC:";
 
 /* Class = "UITableViewController"; title = "transaction details"; ObjectID = "s4T-yd-VfX"; */
 "s4T-yd-VfX.title" = "Детали транзакции";

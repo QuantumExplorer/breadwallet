@@ -3,7 +3,7 @@
 " and " = "och";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ är för 'mDASH'. %@ = 1 DASH";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ är för 'm$PAC'. %@ = 1 $PAC";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ har ej tillåtelse att använda kameran";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nEtt lösenord krävs för att skydda din plånbok. Gå till Inställningar och aktivera lösenord för att fortsätta.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESSEN ÄR REDAN I BRUK\ndash addresser är avsedda för enskilda användningar endast\n\nåteranvändning reducerar anonymiteten för både dig och mottagaren och kan resultera i förlust ifall mottagaren inte direkt kontrollerar addressen";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESSEN ÄR REDAN I BRUK\n$PAC addresser är avsedda för enskilda användningar endast\n\nåteranvändning reducerar anonymiteten för både dig och mottagaren och kan resultera i förlust ifall mottagaren inte direkt kontrollerar addressen";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nbevilja kameraåtkomst i Inställningar->Personligt->Kamera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nLÅT INTE NÅGON se din återställningsfras – annars kan hen spendera dina dash.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nLÅT INTE NÅGON se din återställningsfras – annars kan hen spendera dina $PAC.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nTA INTE en skärmdump\nSkärmdumpar är synliga för andra applikationer\noch enheter.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Applikation %@ begär en adress så att det kan betala dig. Skulle du vilja godkänna detta?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Applikation %@ skulle vilja motta din Master Public Key. Detta kan användas för att hålla reda på din plånbok, detta kan inte användas för att flytta på dina Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Applikation %@ skulle vilja motta din Master Public Key. Detta kan användas för att hålla reda på din plånbok, detta kan inte användas för att flytta på dina $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "fel lösenord, försök igen";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "block #%1$d av %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Köp Dash";
+"Buy $PAC" = "Köp $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Köp dash i dashplånboken!";
+"Buy $PAC in $pacwallet!" = "Köp $PAC i $PACplånboken!";
 
 /* No comment provided by engineer. */
 "cancel" = "avbryt";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "glöm pålitbar nod?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "Urklipp innehåller inte en giltig dash eller bitcoin address";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "Urklipp innehåller inte en giltig $PAC eller bitcoin address";
 
 /* No comment provided by engineer. */
 "close app" = "stäng app";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "kunde inte importera saldo";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "kunde inte skicka betalningen till dash-nätverket";
+"couldn't transmit payment to $PAC network" = "kunde inte skicka betalningen till $PAC-nätverket";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash-adress";
+"$PAC address" = "$PAC-adress";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Dash-adresser kan också kopieras till klippboken. En Dash-adress startar alltid med 'X' eller '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "$PAC-adresser kan också kopieras till klippboken. En $PAC-adress startar alltid med 'X' eller '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "transaktions kostnad";
+"$PAC network fee" = "transaktions kostnad";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "betalningar kan inte vara mindre än %@";
+"$PAC payments can't be less than %@" = "betalningar kan inte vara mindre än %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "transaktionen ej undertecknad";
+"$PAC transaction not signed" = "transaktionen ej undertecknad";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "transaktionens utflöden får ej understiga %@";
+"$PAC transaction outputs can't be less than %@" = "transaktionens utflöden får ej understiga %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina $PAC).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina dash). Radera omedelbart denna plånbok och återskapa den på en annan (säker) enhet.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "ENHETENS SÄKERHET ÄR KOMPRIMISSAD\n\"Jailbreakade\" appar kan läsa inuti andra appar (och stjäla dina $PAC). Radera omedelbart denna plånbok och återskapa den på en annan (säker) enhet.";
 
 /* No comment provided by engineer. */
 "do it later" = "gör det senare";
@@ -237,7 +237,7 @@
 "enter old passcode" = "ange den gamla pinkoden";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "fel vid signering av dashtransaktionen";
+"error signing $PAC transaction" = "fel vid signering av $PACtransaktionen";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "fel vid signering av transaktionen";
@@ -282,13 +282,13 @@
 "insufficient funds" = "täckning saknas";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "täckning saknas för transaktionsavgiften";
+"insufficient funds for $PAC network fee" = "täckning saknas för transaktionsavgiften";
 
 /* No comment provided by engineer. */
 "INVALID" = "OGILTIG";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Via denna QR-kod kan andra läsa av din dashadress. Vem som helst kan skicka dash till din plånbok genom att överföra dem till din adress.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Via denna QR-kod kan andra läsa av din $PACadress. Vem som helst kan skicka $PAC till din plånbok genom att överföra dem till din adress.";
 
 /* No comment provided by engineer. */
 "minute" = "minut";
@@ -315,22 +315,22 @@
 "no peers found" = "hittade inga likar (peer)";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "inte en dash eller bitcoin QR-kod";
+"not a $PAC or bitcoin QR code" = "inte en $PAC eller bitcoin QR-kod";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "inte en giltig bitcoin adress";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "inte en giltig dash adress";
+"not a valid $PAC address" = "inte en giltig $PAC adress";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "inte en giltig dash eller bitcoin adress";
+"not a valid $PAC or bitcoin address" = "inte en giltig $PAC eller bitcoin adress";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "ogiltig privat nyckel";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "ingen anslutning till dashnätverket";
+"not connected to the $PAC network" = "ingen anslutning till $PACnätverket";
 
 /* No comment provided by engineer. */
 "ok" = "OK";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "kurs: %@ = %@\nuppdaterad: %@\nblock #%d of %d\nkopplade peers: %d\ndl peer: %@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Ta emot dash på denna adress: %@";
+"Receive $PAC at this address: %@" = "Ta emot $PAC på denna adress: %@";
 
 /* No comment provided by engineer. */
 "received" = "mottagna";
@@ -414,7 +414,7 @@
 "rescan blockchain" = "återläs blockkedjan";
 
 /* No comment provided by engineer. */
-"rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "återläs blockkedjan om du misstänker att det saknas transaktioner, eller om du har problem att skicka dash (återläsning kan ta flera minuter)";
+"rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "återläs blockkedjan om du misstänker att det saknas transaktioner, eller om du har problem att skicka $PAC (återläsning kan ta flera minuter)";
 
 /* No comment provided by engineer. */
 "reset" = "återställ";
@@ -423,7 +423,7 @@
 "retry" = "försök igen";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Läs in någon annans dashadress eller bitcoinadress via QR-kod. Du kan göra överföringar till alla som har en adress.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Läs in någon annans $PACadress eller bitcoinadress via QR-kod. Du kan göra överföringar till alla som har en adress.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Skärmbilder är synliga för andra appar och enheter. Skapa en ny återställningsfras och håll den hemlig.";
@@ -444,7 +444,7 @@
 "send" = "skicka";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Skicka %1$@ (%2$@) från denna privata nyckel till din plånbok? Bitcoin-nätverket erhåller en avgift på %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Skicka %1$@ (%2$@) från denna privata nyckel till din plånbok? Bitcoin-nätverket erhåller en avgift på %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "skicka adressen som e-post";
@@ -519,13 +519,13 @@
 "the app will now close" = "appen kommer nu avslutas";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Detta är din dashadress. Nudda för att kopiera eller skicka till andra via e-post eller sms. Adressen ändras varje gång du tar emot en betalning, men gamla adresser fungerar även i framtiden.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Detta är din $PACadress. Nudda för att kopiera eller skicka till andra via e-post eller sms. Adressen ändras varje gång du tar emot en betalning, men gamla adresser fungerar även i framtiden.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "Detta är din dash balans.";
+"This is your $PAC balance." = "Detta är din $PAC balans.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Detta är ditt dashaldo. Dash är en valuta. Växelkursen ändras av marknaden.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Detta är ditt $PACaldo. $PAC är en valuta. Växelkursen ändras av marknaden.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "denna betaladress är redan i plånboken";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "skriv ner din återställnings fras";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "Du kan nu köpa dash i\ndashplånboken med kontanter eller\nbank överföring.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "Du kan nu köpa $PAC i\n$PACplånboken med kontanter eller\nbank överföring.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "du måste skriva in din pin-kod för att kunna öppna din dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "du måste skriva in din pin-kod för att kunna öppna din $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "du har fått dash!";
+"you received $PAC!" = "du har fått $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Din plånbok kan vara osynkroniserad.\nDetta åtgärdas oftast genom en omläsning av blockkedjan.";

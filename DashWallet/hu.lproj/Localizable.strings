@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ azaz 'mDASH'. %@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ azaz 'm$PAC'. %@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ nem tud hozzáférni a kamerához";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nA tárcád biztonságban tartásához egy készülék-jelkód is szükséges. A folytatáshoz ezt kapcsold be a telefonod beállításainál.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nengedélyezd a kamera használatát a\nBeállítások->Adatvédelem->Kamera->%@ menüpontban";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nNE engedd, hogy más lássa a helyreállítási\nkódmondatodat, különben elköltheti a\ndashjaidat.";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nNE engedd, hogy más lássa a helyreállítási\nkódmondatodat, különben elköltheti a\n$PACjaidat.";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nNE csinálj képernyőmentést!\nA képernyőmentések elérhetőek más\nalkalmazások és eszközök számára!\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "rossz jelszó, próbáld újra";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "%1$d. blokk a %2$d-ból/-ből";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Buy Dash";
+"Buy $PAC" = "Buy $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Buy dash in dashwallet!";
+"Buy $PAC in $pacwallet!" = "Buy $PAC in $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "mégse";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "a vágólap nem tartalmaz érvényes dash vagy bitcoin címet";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "a vágólap nem tartalmaz érvényes $PAC vagy bitcoin címet";
 
 /* No comment provided by engineer. */
 "close app" = "alkalmazás bezárása";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "az egyenleg átvitele nem sikerült";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "nem sikerült a tranzakciót a dash hálózatra továbbítani";
+"couldn't transmit payment to $PAC network" = "nem sikerült a tranzakciót a $PAC hálózatra továbbítani";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash cím";
+"$PAC address" = "$PAC cím";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Dash címeket a vágólapra is lehet másolni. Egy dash cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "$PAC címeket a vágólapra is lehet másolni. Egy $PAC cím mindig 'X'-gyel vagy '7'-mal kezdődik.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "dash hálózati díj";
+"$PAC network fee" = "$PAC hálózati díj";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "a dash fizetés összege nem lehet kevesebb, mint %@";
+"$PAC payments can't be less than %@" = "a $PAC fizetés összege nem lehet kevesebb, mint %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "a dash tranzakció nincs aláírva";
+"$PAC transaction not signed" = "a $PAC tranzakció nincs aláírva";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "a dash tranzakció kimeneteinek összege nem lehet kisebb, mint %@";
+"$PAC transaction outputs can't be less than %@" = "a $PAC tranzakció kimeneteinek összege nem lehet kisebb, mint %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "KÉSZÜLÉK BIZTONSÁGA KOMPROMITTÁLVA\nBármilyen 'jailbreak' alkalmazás hozzáférhet a többi alkalmazás kulcskarikájához (és ellophatja a dashjaidat).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "KÉSZÜLÉK BIZTONSÁGA KOMPROMITTÁLVA\nBármilyen 'jailbreak' alkalmazás hozzáférhet a többi alkalmazás kulcskarikájához (és ellophatja a $PACjaidat).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "KÉSZÜLÉK BIZTONSÁGA KOMPROMITTÁLVA\nBármilyen 'jailbreak' alkalmazás hozzáférhet a többi alkalmazás kulcskarikájához (és ellophatja a dashjaidat). Töröld ezt a tárcát azonnal és állítsd helyre egy biztonságos eszközön.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "KÉSZÜLÉK BIZTONSÁGA KOMPROMITTÁLVA\nBármilyen 'jailbreak' alkalmazás hozzáférhet a többi alkalmazás kulcskarikájához (és ellophatja a $PACjaidat). Töröld ezt a tárcát azonnal és állítsd helyre egy biztonságos eszközön.";
 
 /* No comment provided by engineer. */
 "do it later" = "később leírom";
@@ -237,7 +237,7 @@
 "enter old passcode" = "írd be a régi jelkódot";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "hiba a dash tranzakció aláírása közben";
+"error signing $PAC transaction" = "hiba a $PAC tranzakció aláírása közben";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "hiba a tranzakció aláírása közben";
@@ -282,13 +282,13 @@
 "insufficient funds" = "fedezethiány";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "fedezethiány a dash hálózati díjra";
+"insufficient funds for $PAC network fee" = "fedezethiány a $PAC hálózati díjra";
 
 /* No comment provided by engineer. */
 "INVALID" = "ÉRVÉNYTELEN";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Engedd hogy ezt a QR kódot beolvassa aki dasht akar neked küldeni.\nA címedet használva bárki tud dasht küldeni a tárcádba.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Engedd hogy ezt a QR kódot beolvassa aki $PACt akar neked küldeni.\nA címedet használva bárki tud $PACt küldeni a tárcádba.";
 
 /* No comment provided by engineer. */
 "minute" = "perc";
@@ -315,22 +315,22 @@
 "no peers found" = "nincs elérhető hálózati csomópont";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "nem dash vagy bitcoin QR kód";
+"not a $PAC or bitcoin QR code" = "nem $PAC vagy bitcoin QR kód";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "nem érvényes bitcoin cím";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "nem érvényes dash cím";
+"not a valid $PAC address" = "nem érvényes $PAC cím";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "nem érvényes dash vagy bitcoin cím";
+"not a valid $PAC or bitcoin address" = "nem érvényes $PAC vagy bitcoin cím";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "nem érvényes privát kulcs";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "nincs csatlakozva a dash hálózathoz";
+"not connected to the $PAC network" = "nincs csatlakozva a $PAC hálózathoz";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Fogadj dasht ezen a címen: %@";
+"Receive $PAC at this address: %@" = "Fogadj $PACt ezen a címen: %@";
 
 /* No comment provided by engineer. */
 "received" = "fogadva";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Olvasd be valaki másnak a QR kódját, hogy hozzájuss a dash vagy bitcoin címéhez. Bárkinek küldhetsz pénzt, akinek van ilyen címe.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Olvasd be valaki másnak a QR kódját, hogy hozzájuss a $PAC vagy bitcoin címéhez. Bárkinek küldhetsz pénzt, akinek van ilyen címe.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "A képernyőmentések láthatóak más alkalmazások és eszközök számára. Generálj egy új helyreállítási kódmondatot és tartsd titokban.";
@@ -444,7 +444,7 @@
 "send" = "küldés";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Átvezessem a következő egyenleget a privát kulcsról a tárcádba: %1$@ (%2$@)? A dash hálózati díj %3$@ (%4$@) lesz.";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Átvezessem a következő egyenleget a privát kulcsról a tárcádba: %1$@ (%2$@)? A $PAC hálózati díj %3$@ (%4$@) lesz.";
 
 /* No comment provided by engineer. */
 "send address as email" = "cím küldése emailben";
@@ -519,13 +519,13 @@
 "the app will now close" = "az alkalmazás most bezárul";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Ez a dash címed. Koppints rá a másoláshoz vagy továbbküldéshez üzenetként vagy emailként. Ez a cím változni fog minden alkalommal amikor pénzt kapsz, de a régi címeid továbbra is működni fognak.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Ez a $PAC címed. Koppints rá a másoláshoz vagy továbbküldéshez üzenetként vagy emailként. Ez a cím változni fog minden alkalommal amikor pénzt kapsz, de a régi címeid továbbra is működni fognak.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Ez a dash egyenleged. A Dash egy valuta. Az átváltási árfolyam a piaci körülményeknek megfelelően változik.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Ez a $PAC egyenleged. A $PAC egy valuta. Az átváltási árfolyam a piaci körülményeknek megfelelően változik.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "ez a cím eleve a saját tárcádhoz tartozik";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ÍRD LE A HELYREÁLLÍTÁSI KÓDMONDATODAT";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "dasht kaptál!";
+"you received $PAC!" = "$PACt kaptál!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "A tárcád nincs szinkronban.\nÁltalában segít az, ha újraszkenneled a blockchaint.";

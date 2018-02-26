@@ -3,7 +3,7 @@
 " and " = "和";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ 是 'mDASH'。 %@ = 1 DASH。";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ 是 'm$PAC'。 %@ = 1 $PAC。";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@不被允许访问照相机";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\n你需要一个密码来保护你的钱包。请转到设置并打开密码再继续。";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n该地址已被使用过\n 达世币地址仅供一次性使用\n\n如果收款人不直接控制地址，重复利用钱包地址会降低你和收款人的隐私，并可能导致损失";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\n该地址已被使用过\n 达世币地址仅供一次性使用\n\n如果收款人不直接控制地址，重复利用钱包地址会降低你和收款人的隐私，并可能导致损失";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\n允许照相机访问\n设置->隐私->照相机->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\n不要让任何人看到你的恢复密语\n否则他们就可以使用您的达世币。\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\n不要让任何人看到你的恢复密语\n否则他们就可以使用您的达世币。\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\n不要使用截图。\n截图对其他应用或设备是可见的。\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的达世币。";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "应用程序 %@ 想要获取你的公钥。它可以被用作查看你的钱包记录，但无法用来移动你钱包中的达世币。";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "密码错误，请重试";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "%2$d中#%1$d的区块";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "购买达世币";
+"Buy $PAC" = "购买达世币";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "在钱包中购买达世币！";
+"Buy $PAC in $pacwallet!" = "在钱包中购买达世币！";
 
 /* No comment provided by engineer. */
 "cancel" = "取消";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "清除信任节点？";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "剪贴板未包含有效的达世币或比特币地址";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "剪贴板未包含有效的达世币或比特币地址";
 
 /* No comment provided by engineer. */
 "close app" = "关闭App";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "无法清除余额";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "无法将交易发送到达世币网络";
+"couldn't transmit payment to $PAC network" = "无法将交易发送到达世币网络";
 
 /* No comment provided by engineer. */
-"Dash address" = "达世币地址";
+"$PAC address" = "达世币地址";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "达世币地址也可以复制到剪贴板。一个达世币地址总是以'X'或'7'开始。";
 
 /* No comment provided by engineer. */
-"dash network fee" = "达世币网络手续费";
+"$PAC network fee" = "达世币网络手续费";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "达世币付款不能低于%@";
+"$PAC payments can't be less than %@" = "达世币付款不能低于%@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "达世币交易尚未签名";
+"$PAC transaction not signed" = "达世币交易尚未签名";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "达世币交易的输出不能少于%@";
+"$PAC transaction outputs can't be less than %@" = "达世币交易的输出不能少于%@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的达世币)。";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的达世币)。";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的达世币)。请立即清除该钱包并在安全设备上将其恢复。";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "该设备的安全性受到威胁\n任何'越狱'的应用程序都可以访问任何其他应用程序的钥匙链数据(并窃取你的达世币)。请立即清除该钱包并在安全设备上将其恢复。";
 
 /* No comment provided by engineer. */
 "do it later" = "以后再做";
@@ -237,7 +237,7 @@
 "enter old passcode" = "输入旧密码";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "达世币交易签名错误";
+"error signing $PAC transaction" = "达世币交易签名错误";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "交易签名错误";
@@ -282,13 +282,13 @@
 "insufficient funds" = "资金不足";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "资金不足以支付达世币的网络手续费";
+"insufficient funds for $PAC network fee" = "资金不足以支付达世币的网络手续费";
 
 /* No comment provided by engineer. */
 "INVALID" = "无效";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "让别人扫描此二维码，以获得您的达世币地址。任何人都可以通过这个地址将达世币转移到您的钱包。";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "让别人扫描此二维码，以获得您的达世币地址。任何人都可以通过这个地址将达世币转移到您的钱包。";
 
 /* No comment provided by engineer. */
 "minute" = "分钟";
@@ -315,22 +315,22 @@
 "no peers found" = "未找到节点";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "非达世币或者比特币的二维码";
+"not a $PAC or bitcoin QR code" = "非达世币或者比特币的二维码";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "不是一个有效的比特币地址";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "不是一个有效的达世币地址";
+"not a valid $PAC address" = "不是一个有效的达世币地址";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "不是一个有效的达世币或者比特币地址";
+"not a valid $PAC or bitcoin address" = "不是一个有效的达世币或者比特币地址";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "不是一个有效的私钥";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "未连接到达世币网络";
+"not connected to the $PAC network" = "未连接到达世币网络";
 
 /* No comment provided by engineer. */
 "ok" = "确定";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "比率：%@ = %@\n升级版本：%@\n区块 #%d of %d\n已链接节点：%d\ndl节点：%@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "在此地址接收达世币： %@";
+"Receive $PAC at this address: %@" = "在此地址接收达世币： %@";
 
 /* No comment provided by engineer. */
 "received" = "收到";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "扫描别人的二维码来获得他们的达世币或者比特币币地址。您可以向任何一个地址发送付款。";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "扫描别人的二维码来获得他们的达世币或者比特币币地址。您可以向任何一个地址发送付款。";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "屏幕截图可以被其他程序或者设备获得。请生成一个新的恢复密语并妥善保管。";
@@ -444,7 +444,7 @@
 "send" = "发送";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "从这个私钥发送%1$@ (%2$@) 到你的钱包？ 达世币网络将收到 %3$@ (%4$@) 的费用。";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "从这个私钥发送%1$@ (%2$@) 到你的钱包？ 达世币网络将收到 %3$@ (%4$@) 的费用。";
 
 /* No comment provided by engineer. */
 "send address as email" = "以电子邮件发送地址";
@@ -519,13 +519,13 @@
 "the app will now close" = "该应用将立即关闭";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "这是你的达世币地址。点击可将其复制，或将其用电子邮件或短信发送。每次你获得资金这个地址都会改变，但旧地址依然可用。";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "这是你的达世币地址。点击可将其复制，或将其用电子邮件或短信发送。每次你获得资金这个地址都会改变，但旧地址依然可用。";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "这是你的达世币余额。";
+"This is your $PAC balance." = "这是你的达世币余额。";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "这是您的达世币余额。达世币是一种货币，汇率随着市场变化。";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "这是您的达世币余额。达世币是一种货币，汇率随着市场变化。";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "此付款地址已在你的钱包中";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "写下你的恢复密语";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "你现在可以购买达世币\n在钱包中使用现金\n或者银行转账。";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "你现在可以购买达世币\n在钱包中使用现金\n或者银行转账。";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "输入密码后才可以进入你的达世币钱包";
+"you must enter your pin in order to enter $pacwallet" = "输入密码后才可以进入你的达世币钱包";
 
 /* No comment provided by engineer. */
-"you received dash!" = "你收到了达世币！";
+"you received $PAC!" = "你收到了达世币！";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "你的钱包可能未同步。\n这通常可以通过重新扫描区块链来修复。";

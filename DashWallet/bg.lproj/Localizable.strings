@@ -3,7 +3,7 @@
 " and " = " и ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%@ е за 'mDASH'. %@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%@ е за 'm$PAC'. %@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ не е позволен достъп до камерата";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nНеобходима е парола на устройството за опазване на портфейла Ви. Отидете в настройки и включете използването на парола, за да продължите.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nВЕЧЕ ИЗПОЛЗВАН АДРЕС\ndash адресите са предназначени за еднократно използване\n\nповторното използване намалява личната неприкосновеност, вашата и на получателя и може да липсва ако получателя на контролира директно адресът ";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nВЕЧЕ ИЗПОЛЗВАН АДРЕС\n$PAC адресите са предназначени за еднократно използване\n\nповторното използване намалява личната неприкосновеност, вашата и на получателя и може да липсва ако получателя на контролира директно адресът ";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nразрешава достъпа до камерата\nНастройки->Неприкосновеност->Камера->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nНЕ ПОЗВОЛЯВАЙТЕ на никой да види вашата фраза\nза възстановяване или могат да похарчат вашата наличност от dash.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nНЕ ПОЗВОЛЯВАЙТЕ на никой да види вашата фраза\nза възстановяване или могат да похарчат вашата наличност от $PAC.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nНЕ ПРАВЕТЕ снимки.\nСнимките са видими от другите приложения и устройства.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Приложението %@ изисква адрес за да направи плащането. Ще разрешите ли това?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Приложението %@ иска да получи вашият Master Public Key.  Това може да бъде използване за проследяване на вашият портфейл,но не може да се използва за преместване на вашите Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Приложението %@ иска да получи вашият Master Public Key.  Това може да бъде използване за проследяване на вашият портфейл,но не може да се използва за преместване на вашите $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "грешна парола, опитайте отново";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "блок #%1$d от %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Купи Dash";
+"Buy $PAC" = "Купи $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Купи dash в dashwallet!";
+"Buy $PAC in $pacwallet!" = "Купи $PAC в $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "отказ";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "изчистване на познатите нодове?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "клипборда не съдържа валиден dash или bitcoin адрес";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "клипборда не съдържа валиден $PAC или bitcoin адрес";
 
 /* No comment provided by engineer. */
 "close app" = "затвори приложението";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "не може да изчисти баланса";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "плащането не може да бъде предадено към мрежата на dash";
+"couldn't transmit payment to $PAC network" = "плащането не може да бъде предадено към мрежата на $PAC";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash адрес";
+"$PAC address" = "$PAC адрес";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Dash адресите могат да се копират в клип борда. Dash адресът винаги започва с 'X' или '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "$PAC адресите могат да се копират в клип борда. $PAC адресът винаги започва с 'X' или '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "такса на dash мрежата";
+"$PAC network fee" = "такса на $PAC мрежата";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "dash плащането не може да бъде по-малко от %@";
+"$PAC payments can't be less than %@" = "$PAC плащането не може да бъде по-малко от %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "dash транзакцията не е подписана";
+"$PAC transaction not signed" = "$PAC транзакцията не е подписана";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "dash изходите за транзакцията  не може да бъдат по-малко то %@";
+"$PAC transaction outputs can't be less than %@" = "$PAC изходите за транзакцията  не може да бъдат по-малко то %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите $PAC).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите dash). Изтрийте този портфейл веднага и го възстановете на защитено устройство. ";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "СЕКРЕТНОТО УСТРОЙСТВО Е КОМПРОМЕТИРАНО\nВсяко 'jailbreak' приложение може да достъпи всяко друго приложение с важна информация (и да открадне вашите $PAC). Изтрийте този портфейл веднага и го възстановете на защитено устройство. ";
 
 /* No comment provided by engineer. */
 "do it later" = "направете го по-късно";
@@ -237,7 +237,7 @@
 "enter old passcode" = "въведете старата парола";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "грешка при подписване на dash транзакция";
+"error signing $PAC transaction" = "грешка при подписване на $PAC транзакция";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "грешно подписана транзакция";
@@ -282,13 +282,13 @@
 "insufficient funds" = "Недостатъчно средства";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "Недостатъчно средства за таксата на dash мрежата";
+"insufficient funds for $PAC network fee" = "Недостатъчно средства за таксата на $PAC мрежата";
 
 /* No comment provided by engineer. */
 "INVALID" = "НЕВАЛИДЕН";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Нека другите да сканират този QR код, за да получат вашия dash адрес. Всеки може да изпрати dash до портфейла Ви, като ги прехвърли на Вашия адрес.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Нека другите да сканират този QR код, за да получат вашия $PAC адрес. Всеки може да изпрати $PAC до портфейла Ви, като ги прехвърли на Вашия адрес.";
 
 /* No comment provided by engineer. */
 "minute" = "минута";
@@ -315,22 +315,22 @@
 "no peers found" = "няма намерени пиъри";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "не е dash или bitcoin QR код";
+"not a $PAC or bitcoin QR code" = "не е $PAC или bitcoin QR код";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "не е валиден Bitcoin адрес";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "не е валиден dash адрес";
+"not a valid $PAC address" = "не е валиден $PAC адрес";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "не е валиден Dash или Bitcoin адрес";
+"not a valid $PAC or bitcoin address" = "не е валиден $PAC или Bitcoin адрес";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "не е валиден частен ключ";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "не е свързан към dash мрежата";
+"not connected to the $PAC network" = "не е свързан към $PAC мрежата";
 
 /* No comment provided by engineer. */
 "ok" = "ок";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "процент: %@ = %@\nактуалицирани: %@\nблок #%d of %d\nсвързани пиъри: %d\ndl пиъри: %@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Получавате dash на този адрес: %@";
+"Receive $PAC at this address: %@" = "Получавате $PAC на този адрес: %@";
 
 /* No comment provided by engineer. */
 "received" = "получени";
@@ -423,7 +423,7 @@
 "retry" = "повторен опит";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Сканирайте някой друг QR код за да получите техният dash или bitcoin адрес. Можете да изпратите плащане към всеки с наличен адрес.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Сканирайте някой друг QR код за да получите техният $PAC или bitcoin адрес. Можете да изпратите плащане към всеки с наличен адрес.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Снимките на екрана са видими от други приложения и устройства. Генерирайте нова фраза за възстановяване и го запазете в тайна.";
@@ -444,7 +444,7 @@
 "send" = "изпращам";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Изпрати %1$@ (%2$@) от този частен ключ в твоят портфейл? Dash мрежата ще получи такса от %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Изпрати %1$@ (%2$@) от този частен ключ в твоят портфейл? $PAC мрежата ще получи такса от %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "изпрати адреса като имейл";
@@ -519,13 +519,13 @@
 "the app will now close" = "приложението ще се затвори сега";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Това е вашият dash адрес. Докоснете, за да го копирате или да го изпратите по имейл или SMS. Адресът ще се променя всеки път, когато получават средства, но старите адреси винаги работят.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Това е вашият $PAC адрес. Докоснете, за да го копирате или да го изпратите по имейл или SMS. Адресът ще се променя всеки път, когато получават средства, но старите адреси винаги работят.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "Това е вашият dash баланс.";
+"This is your $PAC balance." = "Това е вашият $PAC баланс.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Това е твоят dash баланс. Dash е валута. Валутните курсове се променят с пазара.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Това е твоят $PAC баланс. $PAC е валута. Валутните курсове се променят с пазара.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "този адрес за плащане е вече в твоя портфейл";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ЗАПИШИ ОТДОЛУ СВОЯТА ФРАЗА ЗА ВЪЗСТАНОВЯВАНЕ";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "Вече може да купите dash в\ndashwallet в брой или с\nбанков превод.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "Вече може да купите $PAC в\n$pacwallet в брой или с\nбанков превод.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "трябва да въведете своя ПИН, за да влезете в dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "трябва да въведете своя ПИН, за да влезете в $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "ти получи dash!";
+"you received $PAC!" = "ти получи $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Твоят портфейл вероятно не е синхронизиран.\nТова обикновено се фиксира след сканиране на блок веригата.";

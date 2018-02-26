@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%1$@ is for 'mDASH'. %2$@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%1$@ is for 'm$PAC'. %2$@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ nuk lejohet ti çaset kamerës";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nNjë kodkalim është i nevojshëm për sigurinë e kuletës suaj. Shko në konfigurimet dhe aktivizo kodkalimin dhe vazhdo.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nlejo çasjen e kamerës në\nSettings->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nMOS lejoni që askush të shoh frazën\nrikthyese ose ata mund të shpenzojnë\ndash-at e juaj.";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nMOS lejoni që askush të shoh frazën\nrikthyese ose ata mund të shpenzojnë\n$PAC-at e juaj.";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "fjalëkalimi gabim, provoni prapë";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "blloku #%1$d i %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Buy Dash";
+"Buy $PAC" = "Buy $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Buy dash in dashwallet!";
+"Buy $PAC in $pacwallet!" = "Buy $PAC in $pacwallet!";
 
 /* No comment provided by engineer. */
 "cancel" = "anulo";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "memorja nuk përmban një dash ose bitcoin adresë valide";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "memorja nuk përmban një $PAC ose bitcoin adresë valide";
 
 /* No comment provided by engineer. */
 "close app" = "mbyll aplikacionin";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "nuk mund të shpenzohet bilanci";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "nuk mund të transmetohet pagesa në rrjetin dash";
+"couldn't transmit payment to $PAC network" = "nuk mund të transmetohet pagesa në rrjetin $PAC";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash adresa";
+"$PAC address" = "$PAC adresa";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Bitcoin adresat gjithashtu mund të kopjohen në memorje. Një dash adresë gjithmon fillon me 'X' ose '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "Bitcoin adresat gjithashtu mund të kopjohen në memorje. Një $PAC adresë gjithmon fillon me 'X' ose '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "dash tarifa";
+"$PAC network fee" = "$PAC tarifa";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "dash pagesa nuk mund të jetë më e pak se %@";
+"$PAC payments can't be less than %@" = "$PAC pagesa nuk mund të jetë më e pak se %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "dash transaksioni nuk është firmosur";
+"$PAC transaction not signed" = "$PAC transaksioni nuk është firmosur";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "dash transaksion outputet nuk mund të jetë më pak se %@";
+"$PAC transaction outputs can't be less than %@" = "$PAC transaksion outputet nuk mund të jetë më pak se %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "SIGURIA E PAJISJES ËSHTË KOMPROMETUAR\n\nÇdo aplikacion 'jailbreak' mund të ketë çasje në të dhënat e aplikacioneve tjera (dhe mund të ju vjedhin dash-at e juaj).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "SIGURIA E PAJISJES ËSHTË KOMPROMETUAR\n\nÇdo aplikacion 'jailbreak' mund të ketë çasje në të dhënat e aplikacioneve tjera (dhe mund të ju vjedhin $PAC-at e juaj).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "SIGURIA E PAJISJES ËSHTË KOMPROMETUAR\n\nÇdo aplikacion 'jailbreak' mund të ketë çasje në të dhënat e aplikacioneve tjera (dhe mund të ju vjedhin dash-at e juaj). Fshij këtë kuletë menjëherë dhe riktheni atë në një pajisje të sigurtë.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "SIGURIA E PAJISJES ËSHTË KOMPROMETUAR\n\nÇdo aplikacion 'jailbreak' mund të ketë çasje në të dhënat e aplikacioneve tjera (dhe mund të ju vjedhin $PAC-at e juaj). Fshij këtë kuletë menjëherë dhe riktheni atë në një pajisje të sigurtë.";
 
 /* No comment provided by engineer. */
 "do it later" = "bëje më vonë";
@@ -237,7 +237,7 @@
 "enter old passcode" = "shëno kodkalimin e vjetër";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "gabim duke firmosur dash transaksionin";
+"error signing $PAC transaction" = "gabim duke firmosur $PAC transaksionin";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "gabim duke firmosur transaksionin";
@@ -282,13 +282,13 @@
 "insufficient funds" = "fonde të pamjaftueshme";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "fonde të pamjaftueshme për tarifë";
+"insufficient funds for $PAC network fee" = "fonde të pamjaftueshme për tarifë";
 
 /* No comment provided by engineer. */
 "INVALID" = "JOVALID";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Lejo të tjerët të skanojn këtë QR kod për ta marrë dash adresën tuaj. Çdokush mund të ju dërgoj dash-a në kuletën tuaj duke i transferuar ato në adresën tuaj.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Lejo të tjerët të skanojn këtë QR kod për ta marrë $PAC adresën tuaj. Çdokush mund të ju dërgoj $PAC-a në kuletën tuaj duke i transferuar ato në adresën tuaj.";
 
 /* No comment provided by engineer. */
 "minute" = "minutë";
@@ -315,22 +315,22 @@
 "no peers found" = "nuk janë gjetur peers";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "nuk është dash ose bitcoin QR kod";
+"not a $PAC or bitcoin QR code" = "nuk është $PAC ose bitcoin QR kod";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "nuk është bitcoin adresë valide";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "nuk është dash adresë valide";
+"not a valid $PAC address" = "nuk është $PAC adresë valide";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "nuk është dash ose bitcoin adresë valide";
+"not a valid $PAC or bitcoin address" = "nuk është $PAC ose bitcoin adresë valide";
 
 /* No comment provided by engineer. */
-"not a valid private key" = "jo një dash çelës privat valid";
+"not a valid private key" = "jo një $PAC çelës privat valid";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "nuk jeni konektuar në rrjetin dash";
+"not connected to the $PAC network" = "nuk jeni konektuar në rrjetin $PAC";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Prano dash në këtë adresë: %@";
+"Receive $PAC at this address: %@" = "Prano $PAC në këtë adresë: %@";
 
 /* No comment provided by engineer. */
 "received" = "të pranuara";
@@ -423,7 +423,7 @@
 "retry" = "retry";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Skano QR kodin e dikujt tjetër për të marrë dash ose bitcoin adresën e tyre. Mund të dergoni pages gjithkujt me një adresë.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Skano QR kodin e dikujt tjetër për të marrë $PAC ose bitcoin adresën e tyre. Mund të dergoni pages gjithkujt me një adresë.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Screenshot mund të shihen nga aplikacionet dhe pajisjet tjera. Gjenero një frazë tjetër rikthyese dhe mbaje sekret.";
@@ -444,7 +444,7 @@
 "send" = "send";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Dërgo %1$@ (%2$@) nga ky çelës privat në kuletën tuaj? Tarifa për këtë transaksion do të jetë %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Dërgo %1$@ (%2$@) nga ky çelës privat në kuletën tuaj? Tarifa për këtë transaksion do të jetë %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "dërgo adresën sikur email";
@@ -519,13 +519,13 @@
 "the app will now close" = "aplikacioni tash do të mbyllet";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Kjo është dash adresa juaj. Tap për ta kopjuar ose dërguar atë përmes email ose sms. Adresa ndryshon secilën herë që ju pranoni fonde, por adresat e vjetra gjithmonë punojn.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "Kjo është $PAC adresa juaj. Tap për ta kopjuar ose dërguar atë përmes email ose sms. Adresa ndryshon secilën herë që ju pranoni fonde, por adresat e vjetra gjithmonë punojn.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "Kjo është dash bilanci juaj. Dash është një monedhë. Kursi i këmbimit ndryshon nga tregu.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "Kjo është $PAC bilanci juaj. $PAC është një monedhë. Kursi i këmbimit ndryshon nga tregu.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "kjo adresë ekziston tashmë ne kuletën tuaj";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "SHKRUAJE FRAZËN RIKTHYESE DIKU SIGURTË";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "ju pranuat dash!";
+"you received $PAC!" = "ju pranuat $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Si duket kuleta juaj nuk është e sinkronizuar.\nKjo shpesh mund të rregullohet duke riskanuar blockchain.";

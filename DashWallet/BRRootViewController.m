@@ -46,9 +46,9 @@
 #import <sys/stat.h>
 #import <mach-o/dyld.h>
 
-#define BALANCE_TIP_START NSLocalizedString(@"This is your dash balance.", nil)
+#define BALANCE_TIP_START NSLocalizedString(@"This is your $PAC balance.", nil)
 
-#define BALANCE_TIP NSLocalizedString(@"This is your dash balance. Dash is a currency. "\
+#define BALANCE_TIP NSLocalizedString(@"This is your $PAC balance. $PAC is a currency. "\
 "The exchange rate changes with the market.", nil)
 #define MDASH_TIP    NSLocalizedString(@"%@ is for 'mDASH'. %@ = 1 DASH.", nil)
 

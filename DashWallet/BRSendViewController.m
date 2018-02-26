@@ -98,7 +98,10 @@ static NSString *sanitizeString(NSString *s)
     // TODO: XXX redesign page with round buttons like the iOS power down screen... apple watch also has round buttons
     self.scanButton.titleLabel.adjustsFontSizeToFitWidth = YES;
     self.clipboardButton.titleLabel.adjustsFontSizeToFitWidth = YES;
-    
+    self.clipboardButton.layer.cornerRadius = 0.15 * self.clipboardButton.bounds.size.height;
+    self.clipboardButton.layer.borderWidth = 1.0;
+    self.scanButton.layer.cornerRadius = 0.15 * self.scanButton.bounds.size.height;
+    self.scanButton.layer.borderWidth = 1.0;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
     self.scanButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;

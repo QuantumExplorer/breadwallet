@@ -91,7 +91,7 @@
     
     if (self.navigationController.viewControllers.firstObject != self) {
         self.wallpaper.hidden = YES;
-        self.view.backgroundColor = [UIColor clearColor];
+        self.view.backgroundColor = [UIColor redColor];
     }
     
     self.doneButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"done", nil)

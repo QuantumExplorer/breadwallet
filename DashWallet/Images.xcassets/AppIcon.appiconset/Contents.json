@@ -13,7 +13,7 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "icon58.png",
+      "filename" : "Icon-Small@2x.png",
       "scale" : "2x"
     },
     {
@@ -24,7 +24,7 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "icon80.png",
+      "filename" : "Icon-Spotlight-40@2x.png",
       "scale" : "2x"
     },
     {
@@ -35,19 +35,19 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "icon120.png",
+      "filename" : "Icon-60@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "icon180.png",
+      "filename" : "Icon-60@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "DashIcon1024.png",
+      "filename" : "storeIcon.png",
       "scale" : "1x"
     }
   ],

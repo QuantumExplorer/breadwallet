@@ -58,6 +58,10 @@
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
     self.newwalletButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;
     self.recoverButton.titleLabel.adjustsLetterSpacingToFitWidth = YES;
+    self.newwalletButton.layer.cornerRadius = 0.15 * self.newwalletButton.bounds.size.height;
+    self.newwalletButton.layer.borderWidth = 1.0;
+    self.recoverButton.layer.cornerRadius = 0.15 * self.recoverButton.bounds.size.height;
+    self.recoverButton.layer.borderWidth = 1.0;
 #pragma clang diagnostic pop
 
     self.foregroundObserver =

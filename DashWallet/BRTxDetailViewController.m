@@ -329,7 +329,7 @@
                 detailLabel.text = self.outputText[indexPath.row];
                 subtitleLabel.text = self.outputDetail[indexPath.row];
                 amountLabel.textColor = (self.sent > 0) ? [UIColor colorWithRed:1.0 green:0.33 blue:0.33 alpha:1.0] :
-                                        [UIColor colorWithRed:0.0 green:0.75 blue:0.0 alpha:1.0];
+                                        [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
                 
                 
                 long long outputAmount = [self.outputAmount[indexPath.row] longLongValue];

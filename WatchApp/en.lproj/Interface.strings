@@ -5,14 +5,14 @@
 /* Class = "WKInterfaceController"; title = "Cancel"; ObjectID = "4rD-ne-4oP"; */
 "4rD-ne-4oP.title" = "Cancel";
 
-/* Class = "WKInterfaceLabel"; text = "Open DASH iPhone app to setup your wallet"; ObjectID = "Gat-bm-t3w"; */
-"Gat-bm-t3w.text" = "Open dashwallet iPhone app to setup your wallet";
+/* Class = "WKInterfaceLabel"; text = "Open $PAC iPhone app to setup your wallet"; ObjectID = "Gat-bm-t3w"; */
+"Gat-bm-t3w.text" = "Open pacwallet iPhone app to setup your wallet";
 
 /* Class = "WKInterfaceButton"; title = "OK"; ObjectID = "R3B-Zx-omu"; */
 "R3B-Zx-omu.title" = "OK";
 
-/* Class = "WKInterfaceLabel"; text = "Open DASH iPhone app to setup your wallet"; ObjectID = "VXj-KF-nqM"; */
-"VXj-KF-nqM.text" = "Open dashwallet iPhone app to setup your wallet";
+/* Class = "WKInterfaceLabel"; text = "Open $PAC iPhone app to setup your wallet"; ObjectID = "VXj-KF-nqM"; */
+"VXj-KF-nqM.text" = "Open pacwallet iPhone app to setup your wallet";
 
 /* Class = "WKInterfaceController"; title = "Balance"; ObjectID = "ZKF-gb-hhm"; */
 "ZKF-gb-hhm.title" = "Balance";
@@ -26,7 +26,7 @@
 /* Class = "WKInterfaceButton"; title = "8"; ObjectID = "73A-Xa-Cxk"; */
 "73A-Xa-Cxk.title" = "8";
 
-/* Class = "WKInterfaceController"; title = "Dash"; ObjectID = "AgC-eL-Hgc"; */
+/* Class = "WKInterfaceController"; title = "$PAC"; ObjectID = "AgC-eL-Hgc"; */
 "AgC-eL-Hgc.title" = "";
 
 /* Class = "WKInterfaceLabel"; text = "⌫"; ObjectID = "DcN-TW-QTh"; */

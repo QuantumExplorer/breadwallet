@@ -372,6 +372,7 @@
         
         if ([self.selectedOption isEqual:self.selectorOptions[indexPath.row]]) {
             cell.accessoryType = UITableViewCellAccessoryCheckmark;
+            cell.tintColor = UIColor.whiteColor;
         }
         else cell.accessoryType = UITableViewCellAccessoryNone;
         

@@ -3,7 +3,7 @@
 " and " = " a ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mDASH'. %@ = 1 DASH." = "%1$@ znamená 'mDASH'. %2$@ = 1 DASH.";
+"%@ is for 'm$PAC'. %@ = 1 $PAC." = "%1$@ znamená 'm$PAC'. %2$@ = 1 $PAC.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ nemá povolený prístup ku kamere";
@@ -48,13 +48,13 @@
 "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "\nA device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue.";
 
 /* No comment provided by engineer. */
-"\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\ndash addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
+"\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address" = "\nADDRESS ALREADY USED\n$PAC addresses are intended for single use only\n\nre-use reduces privacy for both you and the recipient and can result in loss if the recipient doesn't directly control the address";
 
 /* No comment provided by engineer. */
 "\nallow camera access in\nSettings->Privacy->Camera->%@" = "\nallow camera access in\nSettings->Privacy->Camera->%@";
 
 /* No comment provided by engineer. */
-"\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n" = "\nDO NOT let anyone see your recovery\nphrase or they can spend your dash.\n";
+"\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n" = "\nDO NOT let anyone see your recovery\nphrase or they can spend your $PAC.\n";
 
 /* No comment provided by engineer. */
 "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n" = "\nDO NOT take a screenshot.\nScreenshots are visible to other apps\nand devices.\n";
@@ -87,7 +87,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your Dash.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your $PAC.";
 
 /* No comment provided by engineer. */
 "bad password, try again" = "zlé heslo, skúste znova";
@@ -114,10 +114,10 @@
 "block #%d of %d" = "blok #%1$d z %2$d";
 
 /* No comment provided by engineer. */
-"Buy Dash" = "Kúpiť Dash";
+"Buy $PAC" = "Kúpiť $PAC";
 
 /* No comment provided by engineer. */
-"Buy dash in dashwallet!" = "Kúpiť Dash v Dash peňaženke!";
+"Buy $PAC in $pacwallet!" = "Kúpiť $PAC v $PAC peňaženke!";
 
 /* No comment provided by engineer. */
 "cancel" = "zrušiť";
@@ -147,7 +147,7 @@
 "clear trusted node?" = "clear trusted node?";
 
 /* No comment provided by engineer. */
-"clipboard doesn't contain a valid dash or bitcoin address" = "clipboard doesn't contain a valid dash or bitcoin address";
+"clipboard doesn't contain a valid $PAC or bitcoin address" = "clipboard doesn't contain a valid $PAC or bitcoin address";
 
 /* No comment provided by engineer. */
 "close app" = "ukončiť applikáciu";
@@ -186,31 +186,31 @@
 "couldn't sweep balance" = "couldn't sweep balance";
 
 /* No comment provided by engineer. */
-"couldn't transmit payment to dash network" = "couldn't transmit payment to dash network";
+"couldn't transmit payment to $PAC network" = "couldn't transmit payment to $PAC network";
 
 /* No comment provided by engineer. */
-"Dash address" = "Dash adresa";
+"$PAC address" = "$PAC adresa";
 
 /* No comment provided by engineer. */
-"Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'." = "Dash addresses can also be copied to the clipboard. A dash address always starts with 'X' or '7'.";
+"$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'." = "$PAC addresses can also be copied to the clipboard. A $PAC address always starts with 'X' or '7'.";
 
 /* No comment provided by engineer. */
-"dash network fee" = "sieťový poplatok Dash";
+"$PAC network fee" = "sieťový poplatok $PAC";
 
 /* No comment provided by engineer. */
-"dash payments can't be less than %@" = "dash platby nemôžu byť menšie ako %@";
+"$PAC payments can't be less than %@" = "$PAC platby nemôžu byť menšie ako %@";
 
 /* No comment provided by engineer. */
-"dash transaction not signed" = "dash transaction not signed";
+"$PAC transaction not signed" = "$PAC transaction not signed";
 
 /* No comment provided by engineer. */
-"dash transaction outputs can't be less than %@" = "dash transaction outputs can't be less than %@";
+"$PAC transaction outputs can't be less than %@" = "$PAC transaction outputs can't be less than %@";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your dash). Wipe this wallet immediately and restore on a secure device.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your $PAC). Wipe this wallet immediately and restore on a secure device.";
 
 /* No comment provided by engineer. */
 "do it later" = "vykonať neskôr";
@@ -237,7 +237,7 @@
 "enter old passcode" = "zadať starý číselný kód";
 
 /* No comment provided by engineer. */
-"error signing dash transaction" = "error signing dash transaction";
+"error signing $PAC transaction" = "error signing $PAC transaction";
 
 /* No comment provided by engineer. */
 "error signing transaction" = "error signing transaction";
@@ -282,13 +282,13 @@
 "insufficient funds" = "insufficient funds";
 
 /* No comment provided by engineer. */
-"insufficient funds for dash network fee" = "insufficient funds for dash network fee";
+"insufficient funds for $PAC network fee" = "insufficient funds for $PAC network fee";
 
 /* No comment provided by engineer. */
 "INVALID" = "NEPLATNÉ";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address." = "Let others scan this QR code to get your dash address. Anyone can send dash to your wallet by transferring them to your address.";
+"Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address." = "Let others scan this QR code to get your $PAC address. Anyone can send $PAC to your wallet by transferring them to your address.";
 
 /* No comment provided by engineer. */
 "minute" = "minuta";
@@ -315,22 +315,22 @@
 "no peers found" = "no peers found";
 
 /* No comment provided by engineer. */
-"not a dash or bitcoin QR code" = "not a dash or bitcoin QR code";
+"not a $PAC or bitcoin QR code" = "not a $PAC or bitcoin QR code";
 
 /* No comment provided by engineer. */
 "not a valid bitcoin address" = "not a valid bitcoin address";
 
 /* No comment provided by engineer. */
-"not a valid dash address" = "not a valid dash address";
+"not a valid $PAC address" = "not a valid $PAC address";
 
 /* No comment provided by engineer. */
-"not a valid dash or bitcoin address" = "not a valid dash or bitcoin address";
+"not a valid $PAC or bitcoin address" = "not a valid $PAC or bitcoin address";
 
 /* No comment provided by engineer. */
 "not a valid private key" = "not a valid private key";
 
 /* No comment provided by engineer. */
-"not connected to the dash network" = "not connected to the dash network";
+"not connected to the $PAC network" = "not connected to the $PAC network";
 
 /* No comment provided by engineer. */
 "ok" = "ok";
@@ -372,7 +372,7 @@
 "rate: %@ = %@\nupdated: %@\nblock #%d of %d\nconnected peers: %d\ndl peer: %@" = "rate: %1$@ = %2$@\nupdated: %3$@\nblock #%4$d of %5$d\nconnected peers: %6$d\ndl peer: %7$@";
 
 /* No comment provided by engineer. */
-"Receive dash at this address: %@" = "Receive dash at this address: %@";
+"Receive $PAC at this address: %@" = "Receive $PAC at this address: %@";
 
 /* No comment provided by engineer. */
 "received" = "prijté";
@@ -423,7 +423,7 @@
 "retry" = "skúsiť znovu";
 
 /* No comment provided by engineer. */
-"Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their dash or bitcoin address. You can send a payment to anyone with an address.";
+"Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address." = "Scan someone else's QR code to get their $PAC or bitcoin address. You can send a payment to anyone with an address.";
 
 /* No comment provided by engineer. */
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret.";
@@ -444,7 +444,7 @@
 "send" = "poslať";
 
 /* No comment provided by engineer. */
-"Send %@ (%@) from this private key into your wallet? The dash network will receive a fee of %@ (%@)." = "Send %1$@ (%2$@) from this private key into your wallet? The dash network will receive a fee of %3$@ (%4$@).";
+"Send %@ (%@) from this private key into your wallet? The $PAC network will receive a fee of %@ (%@)." = "Send %1$@ (%2$@) from this private key into your wallet? The $PAC network will receive a fee of %3$@ (%4$@).";
 
 /* No comment provided by engineer. */
 "send address as email" = "send address as email";
@@ -519,13 +519,13 @@
 "the app will now close" = "aplikácia sa teraz ukončí";
 
 /* No comment provided by engineer. */
-"This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "This is your dash address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work.";
+"This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work." = "This is your $PAC address. Tap to copy it or send it by email or sms. The address will change each time you receive funds, but old addresses always work.";
 
 /* No comment provided by engineer. */
-"This is your dash balance." = "This is your dash balance.";
+"This is your $PAC balance." = "This is your $PAC balance.";
 
 /* No comment provided by engineer. */
-"This is your dash balance. Dash is a currency. The exchange rate changes with the market." = "This is your dash balance. Dash is a currency. The exchange rate changes with the market.";
+"This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market." = "This is your $PAC balance. $PAC is a currency. The exchange rate changes with the market.";
 
 /* No comment provided by engineer. */
 "this payment address is already in your wallet" = "this payment address is already in your wallet";
@@ -633,13 +633,13 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "WRITE DOWN YOUR RECOVERY PHRASE";
 
 /* No comment provided by engineer. */
-"You can now buy dash in\ndashwallet with cash or\nbank transfer." = "You can now buy dash in\ndashwallet with cash or\nbank transfer.";
+"You can now buy $PAC in\n$pacwallet with cash or\nbank transfer." = "You can now buy $PAC in\n$pacwallet with cash or\nbank transfer.";
 
 /* No comment provided by engineer. */
-"you must enter your pin in order to enter dashwallet" = "you must enter your pin in order to enter dashwallet";
+"you must enter your pin in order to enter $pacwallet" = "you must enter your pin in order to enter $pacwallet";
 
 /* No comment provided by engineer. */
-"you received dash!" = "you received dash!";
+"you received $PAC!" = "you received $PAC!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain." = "Your wallet may be out of sync.\nThis can often be fixed by rescanning the blockchain.";

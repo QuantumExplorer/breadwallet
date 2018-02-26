@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BeO-Yt-c4D">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BeO-Yt-c4D">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -51,7 +51,7 @@
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="4" contentMode="left" text="no transactions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="117.5" translatesAutoresizingMaskIntoConstraints="NO" id="t1j-JZ-FW0">
                                             <rect key="frame" x="101" y="28" width="117" height="20"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                         </label>
@@ -74,7 +74,7 @@
                                         <constraint firstAttribute="centerY" secondItem="t1j-JZ-FW0" secondAttribute="centerY" constant="-0.5" id="q6c-1b-7I1"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.30029751712328773" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionCell" rowHeight="75" id="apT-vb-EOy">
                                 <rect key="frame" x="0.0" y="97" width="320" height="75"/>
@@ -146,7 +146,7 @@
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="2" contentMode="left" text="Detail" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="31.5" translatesAutoresizingMaskIntoConstraints="NO" id="pXc-8D-8Gh" customClass="BRCopyLabel">
                                             <rect key="frame" x="15" y="45.5" width="35" height="16"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
-                                            <color key="textColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                             <attributedString key="userComments">
@@ -238,7 +238,7 @@
                                         <constraint firstItem="zUE-VM-MXo" firstAttribute="leading" secondItem="pXc-8D-8Gh" secondAttribute="trailing" constant="3" id="z9y-51-szJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.30029751710000002" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DisclosureCell" textLabel="ncN-gc-vpQ" style="IBUITableViewCellStyleDefault" id="GAU-kd-By1">
                                 <rect key="frame" x="0.0" y="172" width="320" height="44"/>
@@ -258,7 +258,7 @@
                                             <rect key="frame" x="16" y="0.0" width="269" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                             <attributedString key="userComments">
@@ -287,7 +287,7 @@
                                         <constraint firstItem="3aV-Es-Zmi" firstAttribute="left" secondItem="I8K-Tt-SBv" secondAttribute="left" id="viR-hk-NxV"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29574914383561651" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActionCell" textLabel="fVX-tM-tZx" style="IBUITableViewCellStyleDefault" id="6Ih-4q-iyJ">
@@ -338,7 +338,7 @@
                                         <constraint firstItem="FhI-1v-EOs" firstAttribute="leading" secondItem="F1k-SH-OVa" secondAttribute="leading" id="v93-K9-S7u"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.2957491438" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -368,7 +368,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="Nbk-cZ-ENN">
-                                    <rect key="frame" x="0.0" y="0.5" width="94" height="15"/>
+                                    <rect key="frame" x="0.0" y="-14.5" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -488,7 +488,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1V-5u-az7">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper-welcome" translatesAutoresizingMaskIntoConstraints="NO" id="YfU-Ll-3CJ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper-default" translatesAutoresizingMaskIntoConstraints="NO" id="YfU-Ll-3CJ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     </imageView>
                                 </subviews>
@@ -545,7 +545,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="KqJ-6D-LUi">
-                                    <rect key="frame" x="0.0" y="0.5" width="94" height="15"/>
+                                    <rect key="frame" x="0.0" y="-14" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -597,7 +597,7 @@
                             <rect key="frame" x="351" y="8" width="9" height="11"/>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="Q8l-bN-CJg" secondAttribute="trailing" constant="15" id="5Qb-6e-hMh"/>
                         <constraint firstAttribute="bottom" secondItem="RXe-Yw-Kar" secondAttribute="bottom" id="BrI-XC-CmG"/>
@@ -614,7 +614,7 @@
                     <viewLayoutGuide key="safeArea" id="Vc8-9G-D7I"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="1275.5" y="702.5"/>
+            <point key="canvasLocation" x="1275" y="702.46478873239437"/>
         </scene>
         <!--Scan View Controller-->
         <scene sceneID="2f7-Nl-i6P">
@@ -730,7 +730,7 @@
                                     <constraint firstAttribute="height" constant="45" id="WHm-GT-eTz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="21"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <attributedString key="userComments">
                                     <fragment content="#bc-ignore!">
@@ -768,6 +768,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="1WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <attributedString key="userComments">
@@ -810,8 +811,8 @@
                             <rect key="frame" x="113" y="14.5" width="94" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-gS-ln6">
-                                    <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="Upd-gS-ln6">
+                                    <rect key="frame" x="0.0" y="-14" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -845,13 +846,14 @@
                                 <rect key="frame" x="0.0" y="100.5" width="320" height="55"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receive DASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qel-3J-2VC">
-                                <rect key="frame" x="54" y="55.5" width="212" height="45"/>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receive $PAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qel-3J-2VC">
+                                <rect key="frame" x="56.5" y="55.5" width="207" height="45"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="wJO-7N-OV1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="e04-Mx-zfv" appends="YES" id="djh-ZP-WYS"/>
@@ -887,6 +889,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <state key="normal" title="1WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <attributedString key="userComments">
@@ -997,13 +1000,14 @@
                                     <constraint firstAttribute="height" constant="40" id="vaw-Gz-1AR"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send DASH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5l-JR-LKA">
-                                <rect key="frame" x="78.5" y="127" width="163" height="45"/>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send $PAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5l-JR-LKA">
+                                <rect key="frame" x="81" y="127" width="158" height="45"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="TC5-Ce-4Ic"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="EKr-Gi-AHW" appends="YES" id="nUb-Yv-XS0"/>
@@ -1011,41 +1015,37 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce6-Wi-wk4">
                                 <rect key="frame" x="38.5" y="348.5" width="243" height="48"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.92156862745098034" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="0My-rH-7KZ"/>
                                     <constraint firstAttribute="height" constant="48" id="1fP-VO-cqe"/>
                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="290" id="KnJ-HV-aoB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="Scan QR Code" image="cameraguide-blue-small" backgroundImage="button-bg-blue">
+                                <state key="normal" title="Scan QR Code" image="cameraguide-blue-small">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="disabled" image="cameraguide-small" backgroundImage="button-bg-blue-pressed">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <state key="highlighted" image="cameraguide-small" backgroundImage="button-bg-blue-pressed">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="disabled" image="cameraguide-small" backgroundImage="button-bg-blue-pressed"/>
+                                <state key="highlighted" image="cameraguide-small" backgroundImage="button-bg-blue-pressed"/>
                                 <connections>
                                     <action selector="scanQR:" destination="RsQ-W7-grB" eventType="touchUpInside" id="wbh-n6-WR8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfj-xS-5rN">
                                 <rect key="frame" x="38.5" y="417.5" width="243" height="48.5"/>
+                                <color key="backgroundColor" red="0.94901960784313721" green="0.92156862745098034" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="Pay Address From Clipboard" backgroundImage="button-bg-blue">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Pay Address From Clipboard">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="disabled" backgroundImage="button-bg-blue-pressed">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1060,7 +1060,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instant Send" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbm-03-nu4">
                                 <rect key="frame" x="46.5" y="511" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="250" image="dash-center-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4Ur-j7-v3L">
@@ -1116,6 +1116,7 @@
                                 </constraints>
                             </view>
                         </subviews>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="dJ4-yH-e9Q" firstAttribute="leading" secondItem="lis-Qt-01n" secondAttribute="leading" id="2Ct-YB-o6J"/>
@@ -1263,6 +1264,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOa-zm-TDG">
                                 <rect key="frame" x="70" y="210" width="180" height="44"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="NhW-v2-HUO"/>
                                     <constraint firstAttribute="height" constant="44" id="TyG-sW-nGi"/>
@@ -1271,7 +1273,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="new wallet" backgroundImage="button-bg-blue">
+                                <state key="normal" title="new wallet">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1286,13 +1288,14 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4w7-k8-9wY">
                                 <rect key="frame" x="70" y="314" width="180" height="44"/>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.92156862750000001" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="SS8-xT-kei"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="recover wallet" backgroundImage="button-bg-blue">
+                                <state key="normal" title="recover wallet">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1336,8 +1339,8 @@
                             <rect key="frame" x="111" y="13" width="98" height="18"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet" translatesAutoresizingMaskIntoConstraints="NO" id="VBZ-P3-o77">
-                                    <rect key="frame" x="0.0" y="0.0" width="98" height="18"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="VBZ-P3-o77">
+                                    <rect key="frame" x="0.0" y="-13" width="98" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -1356,7 +1359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hTO-3U-AsH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1276" y="2158"/>
+            <point key="canvasLocation" x="1275" y="2157.0422535211269"/>
         </scene>
         <!--confirm:-->
         <scene sceneID="2Hc-ez-bvO">
@@ -1367,11 +1370,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="wallpaper-default" translatesAutoresizingMaskIntoConstraints="NO" id="N12-14-Jsp">
-                                <rect key="frame" x="0.0" y="64" width="758" height="504"/>
+                                <rect key="frame" x="0.0" y="-39" width="758" height="607"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Enter this wallet's recovery phrase to wipe it and start/recover another. Your current balance remains on this phrase." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="289" translatesAutoresizingMaskIntoConstraints="NO" id="YC6-rN-4P5">
                                 <rect key="frame" x="32" y="64" width="256" height="82"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
@@ -1390,7 +1394,7 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="N12-14-Jsp" secondAttribute="bottom" id="3Sp-6Y-lFN"/>
                             <constraint firstItem="Q4J-7m-uCP" firstAttribute="bottom" secondItem="3D6-D7-2JP" secondAttribute="bottom" constant="230" id="6gr-Qb-fmy"/>
-                            <constraint firstItem="N12-14-Jsp" firstAttribute="top" secondItem="Q4J-7m-uCP" secondAttribute="top" id="GVl-14-Aoi"/>
+                            <constraint firstItem="N12-14-Jsp" firstAttribute="top" secondItem="Q4J-7m-uCP" secondAttribute="top" constant="-103" id="GVl-14-Aoi"/>
                             <constraint firstItem="3D6-D7-2JP" firstAttribute="leading" secondItem="Q4J-7m-uCP" secondAttribute="leading" constant="12" id="H1q-RD-UrJ"/>
                             <constraint firstItem="3D6-D7-2JP" firstAttribute="top" secondItem="YC6-rN-4P5" secondAttribute="bottom" constant="12" id="Hzn-9K-qd0"/>
                             <constraint firstItem="Q4J-7m-uCP" firstAttribute="trailing" secondItem="3D6-D7-2JP" secondAttribute="trailing" constant="12" id="NtE-Jt-OpD"/>
@@ -1402,7 +1406,7 @@
                         <viewLayoutGuide key="safeArea" id="Q4J-7m-uCP"/>
                     </view>
                     <navigationItem key="navigationItem" title="confirm:" id="fQN-xb-SYb">
-                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="2vu-AA-9sh">
+                        <barButtonItem key="leftBarButtonItem" image="x" id="2vu-AA-9sh">
                             <connections>
                                 <action selector="cancel:" destination="5j4-Re-grj" id="3jF-fF-7CC"/>
                             </connections>
@@ -1415,7 +1419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fhe-MK-1Of" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2720.8000000000002" y="-21.139430284857571"/>
+            <point key="canvasLocation" x="2720.625" y="-22.183098591549296"/>
         </scene>
         <!--transaction details-->
         <scene sceneID="QQa-M8-H76">
@@ -1620,7 +1624,7 @@
                                                 <constraint firstAttribute="height" constant="20" id="49v-w7-zHL"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                             <attributedString key="userComments">
@@ -1863,6 +1867,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DisclosureCell" textLabel="GWf-4e-jTu" style="IBUITableViewCellStyleDefault" id="asb-Pw-5lp">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
@@ -1882,7 +1887,7 @@
                                             <rect key="frame" x="16" y="0.0" width="269" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                             <attributedString key="userComments">
@@ -1911,7 +1916,7 @@
                                         <constraint firstItem="9rS-gH-CRy" firstAttribute="top" secondItem="MFE-cX-KKq" secondAttribute="top" constant="44" id="uCR-Nu-jY8"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29928082191780825" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SelectorCell" textLabel="8e2-ar-Ehc" detailTextLabel="CsQ-fq-mfQ" style="IBUITableViewCellStyleValue1" id="rM0-Jn-tRC">
@@ -1932,7 +1937,7 @@
                                             <rect key="frame" x="16" y="12" width="106.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                         </label>
@@ -1940,7 +1945,7 @@
                                             <rect key="frame" x="250.5" y="12" width="34.5" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                             <attributedString key="userComments">
@@ -1969,7 +1974,7 @@
                                         <constraint firstAttribute="right" secondItem="eAz-LJ-iJD" secondAttribute="right" constant="-45" id="zhZ-gQ-qfC"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29928082189999999" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestoreCell" textLabel="D1b-HB-lKH" style="IBUITableViewCellStyleDefault" id="p0r-06-7C6">
                                 <rect key="frame" x="0.0" y="110" width="320" height="44"/>
@@ -2010,7 +2015,7 @@
                                         <constraint firstItem="NAS-Si-KoG" firstAttribute="top" secondItem="oiA-qx-HTw" secondAttribute="top" constant="44" id="zcg-gD-kiu"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.30230415239726033" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <segue destination="HCk-Gb-uZI" kind="presentation" id="r7P-ed-365"/>
                                 </connections>
@@ -2062,7 +2067,7 @@
                                         <constraint firstItem="Fb0-tq-ddV" firstAttribute="left" secondItem="XGX-sQ-sZg" secondAttribute="left" id="zvp-nO-yWh"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29962863869863021" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectorOptionCell" textLabel="mpz-vn-jZ1" style="IBUITableViewCellStyleDefault" id="b4I-uD-bzz">
                                 <rect key="frame" x="0.0" y="198" width="320" height="44"/>
@@ -2110,7 +2115,7 @@
                                         <constraint firstItem="070-Y8-bcT" firstAttribute="top" secondItem="V3J-1x-fby" secondAttribute="top" id="gUO-M8-DmM"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29962863870000001" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SwitchCell" id="Pe6-Hf-Vsq" customClass="BRUserDefaultsSwitchCell">
                                 <rect key="frame" x="0.0" y="242" width="320" height="44"/>
@@ -2127,9 +2132,9 @@
                                             </constraints>
                                         </view>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="1100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="349" translatesAutoresizingMaskIntoConstraints="NO" id="mxS-i4-y1n">
-                                            <rect key="frame" x="26" y="11" width="278" height="22"/>
+                                            <rect key="frame" x="16" y="11" width="288" height="22"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                             <attributedString key="userComments">
                                                 <fragment content="#bc-ignore!">
@@ -2142,6 +2147,7 @@
                                         </label>
                                         <switch opaque="NO" tag="1101" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4SS-5m-RoG">
                                             <rect key="frame" x="245" y="6.5" width="51" height="31"/>
+                                            <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="didUpdateSwitch:" destination="Pe6-Hf-Vsq" eventType="valueChanged" id="kim-Vz-Wk2"/>
                                             </connections>
@@ -2156,7 +2162,7 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Os3-ju-5lb" firstAttribute="left" secondItem="anH-PG-rgl" secondAttribute="left" id="DQI-LQ-M0i"/>
-                                        <constraint firstItem="mxS-i4-y1n" firstAttribute="leading" secondItem="anH-PG-rgl" secondAttribute="leadingMargin" constant="10" id="DcE-om-Ph7"/>
+                                        <constraint firstItem="mxS-i4-y1n" firstAttribute="leading" secondItem="anH-PG-rgl" secondAttribute="leadingMargin" id="DcE-om-Ph7"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="mxS-i4-y1n" secondAttribute="trailing" id="MWo-tl-gPd"/>
                                         <constraint firstItem="4SS-5m-RoG" firstAttribute="centerY" secondItem="anH-PG-rgl" secondAttribute="centerY" id="Qk9-Zx-Ztk"/>
                                         <constraint firstItem="1ff-qS-BbM" firstAttribute="top" secondItem="Os3-ju-5lb" secondAttribute="bottom" constant="43" id="SIf-a3-pcv"/>
@@ -2169,7 +2175,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="mxS-i4-y1n" secondAttribute="bottom" id="wdn-ww-LII"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.67000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29962863870000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="theSwitch" destination="4SS-5m-RoG" id="FOr-aZ-qN5"/>
                                     <outlet property="titleLabel" destination="mxS-i4-y1n" id="xhY-JU-IDh"/>
@@ -2197,7 +2203,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5gr-Y6-6n9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2721" y="703"/>
+            <point key="canvasLocation" x="2720.625" y="702.46478873239437"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TLa-Oc-b9n">
@@ -2218,10 +2224,10 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" tag="411" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="uvz-hk-Nr4">
-                                        <rect key="frame" x="28.5" y="20" width="263" height="82"/>
+                                        <rect key="frame" x="26.5" y="20" width="267.5" height="82"/>
                                         <gestureRecognizers/>
                                         <string key="text">dashwallet v%ver%%net%
-copyright © 2017 Dash Foundation
+copyright © 2018 $PAC Foundation
 Forked from breadwallet.
 This app is open source:</string>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -2313,7 +2319,7 @@ bitpay.com/rates and poloniex</string>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="FHq-gW-OSW">
-                                    <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
+                                    <rect key="frame" x="0.0" y="-14" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -2444,8 +2450,8 @@ Other devices may be infected.
                             <rect key="frame" x="111" y="13" width="98" height="18"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet" translatesAutoresizingMaskIntoConstraints="NO" id="8lh-UZ-tbs">
-                                    <rect key="frame" x="0.0" y="0.0" width="98" height="18"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="8lh-UZ-tbs">
+                                    <rect key="frame" x="0.0" y="-13" width="98" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -2463,7 +2469,7 @@ Other devices may be infected.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwV-64-ncq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1988" y="2159"/>
+            <point key="canvasLocation" x="1987.5" y="2141.1971830985917"/>
         </scene>
         <!--recovery phrase:-->
         <scene sceneID="MGQ-cg-FBt">
@@ -2533,6 +2539,7 @@ Other devices may be infected.
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="if you ever lose your phone, you will need this phrase to recover your wallet" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="EQG-Km-ZKY">
                                 <rect key="frame" x="10.5" y="186" width="300" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
@@ -2540,6 +2547,7 @@ Other devices may be infected.
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="please write it down" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="Td7-xP-kmB">
                                 <rect key="frame" x="88.5" y="237" width="143" height="19"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
@@ -2592,14 +2600,16 @@ Other devices may be infected.
                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I wrote it down:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyp-mV-Bhd">
                                 <rect key="frame" x="88" y="375" width="114" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJj-7p-7Bt">
                                 <rect key="frame" x="187" y="355.5" width="62" height="62"/>
                                 <inset key="contentEdgeInsets" minX="20" minY="20" maxX="20" maxY="20"/>
-                                <state key="normal" image="checkbox-empty"/>
+                                <state key="normal" image="checkbox-empty">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="toggleWrite:" destination="IA2-75-hxO" eventType="touchUpInside" id="VRe-cL-QDl"/>
                                 </connections>
@@ -2648,8 +2658,8 @@ Other devices may be infected.
                             <rect key="frame" x="113" y="14.5" width="94" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet" translatesAutoresizingMaskIntoConstraints="NO" id="liH-WQ-uDo">
-                                    <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="liH-WQ-uDo">
+                                    <rect key="frame" x="0.0" y="-14" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -2672,7 +2682,7 @@ Other devices may be infected.
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3468" y="2158"/>
+            <point key="canvasLocation" x="3466.875" y="2157.0422535211269"/>
         </scene>
         <!--Amount View Controller-->
         <scene sceneID="r0P-cN-EGu">
@@ -3001,7 +3011,7 @@ Other devices may be infected.
                                     <constraint firstAttribute="height" constant="40" id="1JV-0E-LTH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                                 <attributedString key="userComments">
@@ -3105,8 +3115,8 @@ Other devices may be infected.
                             <rect key="frame" x="113" y="14.5" width="94" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet" translatesAutoresizingMaskIntoConstraints="NO" id="gVu-js-UxD">
-                                    <rect key="frame" x="0.0" y="0.0" width="94" height="15"/>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="dashwallet-white" translatesAutoresizingMaskIntoConstraints="NO" id="gVu-js-UxD">
+                                    <rect key="frame" x="0.0" y="-14" width="94" height="43"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
                             </subviews>
@@ -3147,8 +3157,7 @@ Other devices may be infected.
         <image name="cameraguide-small" width="20" height="20"/>
         <image name="checkbox-empty" width="22" height="22"/>
         <image name="dash-center-logo" width="396" height="396"/>
-        <image name="dashwallet" width="93" height="15"/>
-        <image name="dashwallet-white" width="97" height="18"/>
+        <image name="dashwallet-white" width="210" height="94"/>
         <image name="deletetoleft" width="29" height="23"/>
         <image name="deletetoleft-pressed" width="29" height="23"/>
         <image name="flash" width="33" height="33"/>
@@ -3156,7 +3165,6 @@ Other devices may be infected.
         <image name="refresh" width="9" height="11"/>
         <image name="shapeshift" width="64" height="64"/>
         <image name="wallpaper-default" width="758" height="568"/>
-        <image name="wallpaper-welcome" width="757" height="568"/>
         <image name="x" width="20" height="16"/>
     </resources>
 </document>

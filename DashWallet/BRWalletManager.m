@@ -54,7 +54,7 @@
 #define TICKER_REFRESH_TIME 60.0
 
 #define SEED_ENTROPY_LENGTH   (128/8)
-#define SEC_ATTR_SERVICE      @"org.dashfoundation.dash"
+#define SEC_ATTR_SERVICE      @"org.paccoin.wallet"
 #define DEFAULT_CURRENCY_CODE @"USD"
 #define DEFAULT_SPENT_LIMIT   DUFFS
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,15 +23,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallpaper-welcome" translatesAutoresizingMaskIntoConstraints="NO" id="FwI-2H-GnU">
-                                <rect key="frame" x="0.0" y="0.0" width="359" height="812"/>
+                                <rect key="frame" x="16" y="316" width="343" height="172"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.75294117647058822" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="FwI-2H-GnU" secondAttribute="trailing" id="AS2-BS-m4E"/>
-                            <constraint firstItem="FwI-2H-GnU" firstAttribute="leading" secondItem="Qzf-u8-EOx" secondAttribute="leading" id="Lrv-Hf-8SQ"/>
-                            <constraint firstItem="FwI-2H-GnU" firstAttribute="height" secondItem="Qzf-u8-EOx" secondAttribute="height" id="Phq-gj-8ti"/>
-                            <constraint firstAttribute="bottom" secondItem="FwI-2H-GnU" secondAttribute="bottom" id="Wap-Zv-qBF"/>
+                            <constraint firstItem="FwI-2H-GnU" firstAttribute="leading" secondItem="Qzf-u8-EOx" secondAttribute="leading" constant="16" id="Lrv-Hf-8SQ"/>
+                            <constraint firstItem="FwI-2H-GnU" firstAttribute="height" secondItem="Qzf-u8-EOx" secondAttribute="height" constant="-640" id="Phq-gj-8ti"/>
+                            <constraint firstAttribute="bottom" secondItem="FwI-2H-GnU" secondAttribute="bottom" constant="324" id="Wap-Zv-qBF"/>
                             <constraint firstAttribute="trailing" secondItem="FwI-2H-GnU" secondAttribute="trailing" id="a5e-FZ-9XI"/>
                             <constraint firstItem="FwI-2H-GnU" firstAttribute="top" secondItem="Qzf-u8-EOx" secondAttribute="top" id="kTv-lQ-twH"/>
                         </constraints>
@@ -45,10 +45,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
         </scene>
     </scenes>
     <resources>
-        <image name="wallpaper-welcome" width="757" height="568"/>
+        <image name="wallpaper-welcome" width="630" height="284"/>
     </resources>
 </document>
