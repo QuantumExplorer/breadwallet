@@ -159,38 +159,38 @@ static NSString *sanitizeString(NSString *s)
     }
     
     
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardWillShow:)
-                                                 name:UIKeyboardWillShowNotification
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardWillHide:)
-                                                 name:UIKeyboardWillHideNotification
-                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(keyboardWillShow:)
+//                                                 name:UIKeyboardWillShowNotification
+//                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(keyboardWillHide:)
+//                                                 name:UIKeyboardWillHideNotification
+//                                               object:nil];
 }
 
--(void)keyboardWillShow:(NSNotification *)notification
-{
-    if (self.inClipboardTextView) {
-        NSDictionary *info  = notification.userInfo;
-        NSValue      *value = info[UIKeyboardFrameEndUserInfoKey];
-        
-        CGRect rawFrame      = [value CGRectValue];
-        CGRect keyboardFrame = [self.view convertRect:rawFrame fromView:nil];
-        
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [UIView animateWithDuration:0.35 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-                self.view.center = CGPointMake(self.view.center.x, (self.view.bounds.size.height - keyboardFrame.size.height)/2.0 - 50);
-                self.sendLabel.alpha = 0.0;
-            } completion:nil];
-        });
-    }
-    
-    if (!hasNFC) {
-        [self.NFCWidthConstraint setConstant:0];
-        [self.leftOfNFCButtonWhitespaceConstraint setConstant:0];
-    }
-}
+//-(void)keyboardWillShow:(NSNotification *)notification
+//{
+//    if (self.inClipboardTextView) {
+//        NSDictionary *info  = notification.userInfo;
+//        NSValue      *value = info[UIKeyboardFrameEndUserInfoKey];
+//        
+//        CGRect rawFrame      = [value CGRectValue];
+//        CGRect keyboardFrame = [self.view convertRect:rawFrame fromView:nil];
+//        
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//            [UIView animateWithDuration:0.35 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+//                self.view.center = CGPointMake(self.view.center.x, (self.view.bounds.size.height - keyboardFrame.size.height)/2.0 - 50);
+//                self.sendLabel.alpha = 0.0;
+//            } completion:nil];
+//        });
+//    }
+//    
+//    if (!hasNFC) {
+//        [self.NFCWidthConstraint setConstant:0];
+//        [self.leftOfNFCButtonWhitespaceConstraint setConstant:0];
+//    }
+//}
 
 - (void)viewWillAppear:(BOOL)animated
 {

@@ -276,6 +276,9 @@
 "instant payment" = "Мгновенный платеж";
 
 /* No comment provided by engineer. */
+"Instant send is currently disabled on the network" = "Instant send is currently disabled on the network";
+
+/* No comment provided by engineer. */
 "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send требует достаточного количества входов с 6 подтверждениями. Отправить как обычную транзакцию?";
 
 /* No comment provided by engineer. */

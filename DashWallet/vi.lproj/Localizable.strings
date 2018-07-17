@@ -276,6 +276,9 @@
 "instant payment" = "giao dịch tức thời";
 
 /* No comment provided by engineer. */
+"Instant send is currently disabled on the network" = "Instant send is currently disabled on the network";
+
+/* No comment provided by engineer. */
 "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send cần đầu vào với đủ 6 xác thực, bạn có muốn gửi đi như một giao dịch thông thường không?";
 
 /* No comment provided by engineer. */

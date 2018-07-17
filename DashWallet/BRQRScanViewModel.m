@@ -25,7 +25,6 @@
 
 #import <AVFoundation/AVFoundation.h>
 
-#import "NSString+Bitcoin.h"
 #import "NSString+Dash.h"
 #import "BREventManager.h"
 #import "BRPaymentRequest.h"

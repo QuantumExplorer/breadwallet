@@ -276,6 +276,9 @@
 "instant payment" = "Omedelbar betalning";
 
 /* No comment provided by engineer. */
+"Instant send is currently disabled on the network" = "Instant send is currently disabled on the network";
+
+/* No comment provided by engineer. */
 "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send kräver tillräckligt många inputs med 6 bekräftelser, skicka ändå som en normal transaktion?";
 
 /* No comment provided by engineer. */

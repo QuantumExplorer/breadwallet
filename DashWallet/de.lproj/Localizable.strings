@@ -276,6 +276,9 @@
 "instant payment" = "Instant Zahlung";
 
 /* No comment provided by engineer. */
+"Instant send is currently disabled on the network" = "Instant send is currently disabled on the network";
+
+/* No comment provided by engineer. */
 "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Instant Send erfordert ausreichend Inputs mit 6 Bestätigungen. Dennoch als Standard-Transaktion senden?";
 
 /* No comment provided by engineer. */

@@ -276,6 +276,9 @@
 "instant payment" = "directe betaling";
 
 /* No comment provided by engineer. */
+"Instant send is currently disabled on the network" = "Instant send is currently disabled on the network";
+
+/* No comment provided by engineer. */
 "Instant Send requires enough inputs with 6 confirmations, send anyways as regular transaction?" = "Directe betaling vereist genoeg invoeren met 6 bevestigingen. Versturen als reguliere transactie?";
 
 /* No comment provided by engineer. */
