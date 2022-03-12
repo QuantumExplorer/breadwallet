@@ -19,6 +19,7 @@
 
 #import <DashSync/DSAuthenticationKeysDerivationPath.h>
 #import <DashSync/DashSync.h>
+#import <DashSync/DSMasternodeManager+LocalMasternode.h>
 
 #import "DWDerivationPathKeysItemObject.h"
 #import "DWEnvironment.h"

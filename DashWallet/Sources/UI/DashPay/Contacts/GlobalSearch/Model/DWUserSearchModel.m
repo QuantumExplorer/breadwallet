@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DWUserSearchRequest : NSObject
 
 @property (readonly, nonatomic, copy) NSString *trimmedQuery;
-@property (nonatomic, assign) uint32_t offset;
+@property (nonatomic, strong) NSData * startAfterIdentityId;
 @property (nullable, nonatomic, copy) NSArray<id<DWDPBasicUserItem, DWDPBlockchainIdentityBackedItem>> *items;
 @property (nonatomic, assign) BOOL requestInProgress;
 @property (nonatomic, assign) BOOL hasNextPage;
@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_END
     self = [super init];
     if (self) {
         _trimmedQuery = [trimmedQuery copy];
-        _offset = 0;
+        _startAfterIdentityId = nil;
     }
     return self;
 }
@@ -105,7 +105,8 @@ NS_ASSUME_NONNULL_END
 - (void)willDisplayItemAtIndex:(NSInteger)index {
     const BOOL shouldRequestNextPage = self.searchRequest.items.count >= LIMIT && index >= self.searchRequest.items.count - LIMIT / 4;
     if (shouldRequestNextPage && self.searchRequest.hasNextPage && !self.searchRequest.requestInProgress) {
-        self.searchRequest.offset += LIMIT;
+        id<DWDPBasicUserItem, DWDPBlockchainIdentityBackedItem> lastObject = self.searchRequest.items.lastObject;
+        self.searchRequest.startAfterIdentityId = uint256_data(lastObject.blockchainIdentity.uniqueID);
         [self performSearchAndNotify:NO];
     }
 }
@@ -156,11 +157,11 @@ NS_ASSUME_NONNULL_END
     }
 
     if (self.searchRequest) {
-        [self performSearchWithQuery:self.searchRequest.trimmedQuery offset:self.searchRequest.offset];
+        [self performSearchWithQuery:self.searchRequest.trimmedQuery startAfter:self.searchRequest.startAfterIdentityId];
     }
 }
 
-- (void)performSearchWithQuery:(NSString *)query offset:(uint32_t)offset {
+- (void)performSearchWithQuery:(NSString *)query startAfter:(NSData*)startAfter {
     self.searchRequest.requestInProgress = YES;
 
     DSIdentitiesManager *manager = [DWEnvironment sharedInstance].currentChainManager.identitiesManager;
@@ -168,7 +169,7 @@ NS_ASSUME_NONNULL_END
     self.request = [manager
         searchIdentitiesByNamePrefix:query
                             inDomain:@"dash"
-                              offset:offset
+                          startAfter:startAfter
                                limit:LIMIT
                       withCompletion:^(BOOL success, NSArray<DSBlockchainIdentity *> *_Nullable blockchainIdentities, NSArray<NSError *> *errors) {
                           __strong typeof(weakSelf) strongSelf = weakSelf;
